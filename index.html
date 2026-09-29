@@ -1,0 +1,2671 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- =========================================================
+         SEO TÉCNICO
+    ========================================================== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TurismundoARG | Passeios, Transfers e Turismo em Buenos Aires</title>
+    <meta
+      name="description"
+      content="Conheça Buenos Aires com a TurismundoARG. Transfers Ezeiza e Aeroparque, City Tour, Tigre, Campanópolis, Bodega Gamboa, Colonia del Sacramento e shows de tango. Atendimento especializado para brasileiros."
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="author" content="TurismundoARG" />
+    <meta name="theme-color" content="#0B3D5C" />
+    <link rel="canonical" href="https://SEU_DOMINIO.com/" />
+
+    <!-- =========================================================
+         OPEN GRAPH (Card do WhatsApp e Instagram)
+    ========================================================== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="TurismundoARG" />
+    <meta
+      property="og:title"
+      content="TurismundoARG | Viva Buenos Aires como um local"
+    />
+    <meta
+      property="og:description"
+      content="Transfers, passeios, experiências e tango em Buenos Aires para brasileiros. Planeje sua experiência com a TurismundoARG."
+    />
+    <meta property="og:url" content="https://www.turismundoarg.com.br/" />
+    <meta
+      property="og:image"
+      content="https://www.turismundoarg.com.br/imagens/logo.png"
+    />
+
+    <!-- =========================================================
+         FAVICON E FONTES
+    ========================================================== -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- =========================================================
+         SCHEMA.ORG (Para o Google entender sua agência)
+    ========================================================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "TravelAgency",
+            "@id": "https://www.turismundoarg.com.br/#empresa",
+            "name": "TurismundoARG",
+            "url": "https://www.turismundoarg.com.br/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.turismundoarg.com.br/logo.png"
+            },
+            "description": "Agência de turismo receptivo em Buenos Aires especializada em transfers, passeios, experiências e serviços turísticos para brasileiros.",
+            "telephone": "+54 9 11 2632-3743",
+            "priceRange": "$$",
+            "currenciesAccepted": "ARS, BRL, USD",
+            "areaServed": {
+              "@type": "City",
+              "name": "Buenos Aires"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Buenos Aires",
+              "addressCountry": "AR"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- =========================================================
+         CSS
+    ========================================================== -->
+    <style>
+      :root {
+        --blue: #168bd5;
+        --blue-dark: #0b3d5c;
+        --blue-deep: #062f46;
+        --green: #72c636;
+        --green-light: #e8f5d8;
+        --coral: #f04b45;
+        --cream: #f8faf7;
+        --text: #16313b;
+        --muted: #65767d;
+        --white: #ffffff;
+        --shadow: 0 15px 45px rgba(6, 47, 70, 0.1);
+        --radius: 22px;
+        --max: 1180px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 100px;
+      }
+      body {
+        font-family: "Montserrat", Arial, sans-serif;
+        color: var(--text);
+        background: var(--cream);
+        line-height: 1.65;
+        overflow-x: hidden;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        -webkit-tap-highlight-color: transparent;
+      }
+      button {
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .container {
+        width: min(calc(100% - 40px), var(--max));
+        margin: auto;
+      }
+
+      /* BOTÕES */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        padding: 15px 25px;
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 800;
+        transition: 0.25s ease;
+        cursor: pointer;
+        border: 0;
+      }
+      .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      }
+      .btn-primary {
+        background: var(--coral);
+        color: white;
+      }
+      .btn-green {
+        background: var(--green);
+        color: var(--blue-dark);
+      }
+      .btn-outline {
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+      }
+
+      /* HEADER & MENU DESKTOP */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.97);
+        border-bottom: 1px solid #edf1ef;
+      }
+      .header {
+        min-height: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .logo img {
+        width: 58px;
+        height: 58px;
+        object-fit: contain;
+      }
+      .logo-name {
+        font-size: 19px;
+        line-height: 1;
+        font-weight: 800;
+        color: var(--blue-dark);
+      }
+      .logo-name span {
+        display: block;
+        color: var(--green);
+        margin-top: 4px;
+      }
+      .desktop-nav {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--blue-dark);
+      }
+      .desktop-nav a:not(.btn):hover {
+        color: var(--blue);
+      }
+
+      /* BOTÃO MOBILE ANIMADO */
+      .mobile-btn {
+        display: none;
+        background: transparent;
+        border: none;
+        border-top: 3px solid var(--blue-dark);
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1001;
+        transition: 0.3s;
+        padding: 0;
+      }
+      .mobile-btn::before,
+      .mobile-btn::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: var(--blue-dark);
+        position: absolute;
+        transition: 0.3s;
+      }
+      .mobile-btn::before {
+        top: 5px;
+      }
+      .mobile-btn::after {
+        top: 13px;
+      }
+      .mobile-btn.open {
+        border-top-color: transparent;
+      }
+      .mobile-btn.open::before {
+        transform: rotate(135deg);
+        top: 5px;
+      }
+      .mobile-btn.open::after {
+        transform: rotate(-135deg);
+        top: 5px;
+      }
+
+      /* MENU MOBILE FLUTUANTE */
+      .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        clip-path: circle(0px at 90% 0%);
+        pointer-events: none;
+        transition: clip-path 0.4s ease-in-out;
+        will-change: clip-path;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+
+      .mobile-menu.open {
+        clip-path: circle(1500px at 90% 0%);
+        pointer-events: all;
+      }
+
+      /* Links do Menu com efeito de surgimento */
+      .mobile-link {
+        padding: 15px 20px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--blue-dark);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+      }
+      .mobile-menu.open .mobile-link {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .mobile-menu.open .mobile-link:nth-child(1) {
+        transition-delay: 0.1s;
+      }
+      .mobile-menu.open .mobile-link:nth-child(2) {
+        transition-delay: 0.15s;
+      }
+      .mobile-menu.open .mobile-link:nth-child(3) {
+        transition-delay: 0.2s;
+      }
+      .mobile-menu.open .mobile-link:nth-child(4) {
+        transition-delay: 0.25s;
+      }
+      .mobile-menu.open .mobile-link:nth-child(5) {
+        transition-delay: 0.3s;
+      }
+      .mobile-menu.open .mobile-link:nth-child(6) {
+        transition-delay: 0.35s;
+      }
+      .mobile-menu.open .mobile-link:nth-child(7) {
+        transition-delay: 0.4s;
+      }
+      .mobile-link:hover {
+        color: var(--blue);
+        background: var(--cream);
+      }
+
+      /* HERO */
+      .hero {
+        min-height: 700px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 100px;
+        position: relative;
+        color: white;
+        overflow: hidden; /* Corta as sobras do vídeo */
+      }
+
+      .hero-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Faz o vídeo preencher a tela toda sem achatar */
+        z-index: 1;
+      }
+
+      .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background: linear-gradient(
+          90deg,
+          rgba(5, 45, 67, 0.97) 0%,
+          rgba(5, 45, 67, 0.9) 37%,
+          rgba(5, 45, 67, 0.45) 65%,
+          rgba(5, 45, 67, 0.08) 100%
+        );
+      }
+
+      /* Garante que o texto fique por cima de tudo */
+      .hero > .container {
+        position: relative;
+        z-index: 3;
+      }
+      .hero-content {
+        max-width: 720px;
+      }
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: #a6e86a;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+      }
+      .eyebrow::before {
+        content: "";
+        width: 25px;
+        height: 4px;
+        border-radius: 10px;
+        background: var(--green);
+      }
+      h1 {
+        font-size: clamp(42px, 6vw, 70px);
+        line-height: 1.03;
+        letter-spacing: -2.5px;
+        margin-bottom: 25px;
+      }
+      h1 span {
+        color: #a5e65f;
+      }
+      .hero-text {
+        max-width: 650px;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.92);
+        margin-bottom: 30px;
+      }
+      .hero-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .trust-line {
+        margin-top: 25px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.75);
+      }
+
+      /* ESTRUTURA GERAL */
+      .benefits {
+        background: white;
+        padding: 35px 0;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.04);
+      }
+      .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+      }
+      .benefit {
+        display: flex;
+        gap: 13px;
+        align-items: flex-start;
+      }
+      .benefit-icon {
+        flex-shrink: 0;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        background: var(--green-light);
+        color: var(--green);
+        font-size: 20px;
+        font-weight: 800;
+      }
+      .benefit h3 {
+        color: var(--blue-dark);
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 4px;
+      }
+      .benefit p {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      section {
+        padding: 20px 0 90px;
+      }
+      .section-heading {
+        max-width: 730px;
+        margin-bottom: 45px;
+      }
+      .section-tag {
+        color: var(--blue);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+      h2 {
+        color: var(--blue-dark);
+        font-size: clamp(32px, 4vw, 50px);
+        line-height: 1.08;
+        letter-spacing: -1.5px;
+        margin-bottom: 15px;
+      }
+      .section-heading p {
+        color: var(--muted);
+        font-size: 16px;
+      }
+
+      /* SERVIÇOS */
+      .services {
+        background: #f2f8f5;
+      }
+      .service-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+      }
+      .service-card {
+        background: white;
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        transition: 0.25s ease;
+      }
+      .service-card:hover {
+        transform: translateY(-5px);
+      }
+      .service-image {
+        height: 270px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .service-body {
+        padding: 28px;
+      }
+      .service-label {
+        display: inline-block;
+        padding: 6px 11px;
+        border-radius: 50px;
+        background: var(--green-light);
+        color: #438a20;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 12px;
+      }
+      .service-card h3 {
+        color: var(--blue-dark);
+        font-size: 23px;
+        margin-bottom: 10px;
+        line-height: 1.2;
+      }
+      .service-card p {
+        color: var(--muted);
+        font-size: 14px;
+        margin-bottom: 18px;
+      }
+      .service-list {
+        list-style: none;
+        margin-bottom: 20px;
+      }
+      .service-list li {
+        font-size: 13px;
+        color: #53666d;
+        margin: 8px 0;
+      }
+      .service-list li::before {
+        content: "✓";
+        color: var(--green);
+        font-weight: 900;
+        margin-right: 8px;
+      }
+      .service-link {
+        color: var(--blue);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      /* TRANSFERS */
+      .transfer-section {
+        background: white;
+      }
+      .transfer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+      .transfer-image {
+        height: 500px;
+        border-radius: 28px;
+        object-fit: cover;
+        width: 100%;
+      }
+      .transfer-content h2 {
+        margin-bottom: 20px;
+      }
+      .transfer-content > p {
+        color: var(--muted);
+        margin-bottom: 25px;
+      }
+      .airport-boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin-bottom: 25px;
+      }
+      .airport {
+        border: 1px solid #e4ebe7;
+        padding: 20px;
+        border-radius: 16px;
+        background: #fafcfb;
+      }
+      .airport strong {
+        color: var(--blue-dark);
+        display: block;
+        margin-bottom: 5px;
+      }
+      .airport span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      /* PASSEIOS */
+      .experiences {
+        background: var(--blue-dark);
+        color: white;
+      }
+      .experiences h2 {
+        color: white;
+      }
+      .experiences .section-heading p {
+        color: rgba(255, 255, 255, 0.72);
+      }
+      .experience-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .experience-card {
+        min-height: 360px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        display: flex;
+        align-items: flex-end;
+        background: #123;
+      }
+      .experience-card img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.5s ease;
+      }
+      .experience-card:hover img {
+        transform: scale(1.06);
+      }
+      .experience-card::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.85));
+      }
+      .experience-content {
+        position: relative;
+        z-index: 2;
+        padding: 25px;
+        width: 100%;
+      }
+      .experience-content h3 {
+        font-size: 23px;
+        margin-bottom: 8px;
+      }
+      .experience-content p {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.82);
+        margin-bottom: 15px;
+      }
+      .experience-content a {
+        color: #a5e65f;
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      /* TANGO */
+      .tango {
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        color: white;
+        background:
+          linear-gradient(
+            90deg,
+            rgba(20, 20, 20, 0.93),
+            rgba(20, 20, 20, 0.35)
+          ),
+          url("imagens/tango.jpg") center / cover no-repeat;
+      }
+      .tango-content {
+        max-width: 650px;
+      }
+      .tango h2 {
+        color: white;
+      }
+      .tango p {
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 25px;
+      }
+
+      /* COLONIA */
+      .colonia {
+        background: white;
+      }
+      .colonia-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+      }
+      .colonia-image {
+        width: 100%;
+        height: 460px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+      .colonia-content h2 {
+        margin-bottom: 20px;
+      }
+      .colonia-content p {
+        color: var(--muted);
+        margin-bottom: 18px;
+      }
+
+      /* COMO FUNCIONA */
+      .steps {
+        background: #f2f8f5;
+      }
+      .steps-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+      .step {
+        background: white;
+        border-radius: 20px;
+        padding: 30px;
+        border: 1px solid #e5ece8;
+      }
+      .step-number {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        background: var(--blue);
+        color: white;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+      .step h3 {
+        color: var(--blue-dark);
+        font-size: 17px;
+        margin-bottom: 10px;
+      }
+      .step p {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      /* POR QUE ESCOLHER */
+      .why {
+        background: white;
+      }
+      .why-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+      .why-card {
+        padding: 28px;
+        border-radius: 18px;
+        background: #f8faf8;
+      }
+      .why-icon {
+        font-size: 30px;
+        margin-bottom: 15px;
+      }
+      .why-card h3 {
+        color: var(--blue-dark);
+        font-size: 17px;
+        margin-bottom: 8px;
+      }
+      .why-card p {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      /* DEPOIMENTOS */
+      .reviews {
+        background: #f2f8f5;
+      }
+      .reviews-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .review {
+        background: white;
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+      }
+      .stars {
+        color: #f5b400;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+      }
+      .review p {
+        color: #52646a;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      .review strong {
+        color: var(--blue-dark);
+        font-size: 13px;
+      }
+
+      /* Animação do Carrossel */
+      .reviews-slider {
+        position: relative;
+        overflow: hidden;
+      }
+      .review-slide {
+        display: none; /* Esconde os que não estão ativos */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        animation: fadeSlide 0.6s ease-in-out;
+      }
+      .review-slide.active {
+        display: grid; /* Mostra apenas o grupo ativo */
+      }
+
+      @keyframes fadeSlide {
+        from {
+          opacity: 0;
+          transform: translateY(15px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Bolinhas */
+      .slider-dots {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 35px;
+      }
+      .dot {
+        width: 12px;
+        height: 12px;
+        background: #d1dfd8;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .dot.active {
+        background: var(--blue);
+        transform: scale(1.3);
+      }
+      /* FAQ */
+      .faq {
+        background: white;
+      }
+      .faq-wrapper {
+        max-width: 850px;
+        margin: auto;
+      }
+      details {
+        border-bottom: 1px solid #e4eae7;
+        padding: 20px 0;
+      }
+      summary {
+        cursor: pointer;
+        list-style: none;
+        font-weight: 700;
+        color: var(--blue-dark);
+        padding-right: 25px;
+        position: relative;
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      summary::after {
+        content: "+";
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+        color: var(--blue);
+      }
+      details[open] summary::after {
+        content: "−";
+      }
+      details p {
+        padding-top: 12px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      /* FALE CONOSCO */
+      .contact {
+        background: #f2f8f5;
+      }
+      .contact-wrapper {
+        max-width: 650px;
+        margin: 0 auto;
+        background: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+      }
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 16px 20px;
+        border: 1px solid #e4eae7;
+        border-radius: 12px;
+        font-family: inherit;
+        font-size: 14px;
+        color: var(--blue-dark);
+        background: #fafcfb;
+        outline: none;
+        transition: 0.3s;
+      }
+      .contact-form input:focus,
+      .contact-form textarea:focus {
+        border-color: var(--blue);
+        background: white;
+        box-shadow: 0 0 0 4px rgba(22, 139, 213, 0.1);
+      }
+      .contact-form textarea {
+        resize: vertical;
+      }
+      .contact-form .btn {
+        width: 100%;
+        margin-top: 10px;
+      }
+      .success {
+        color: #438a20;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 40px 0;
+      }
+      .error {
+        color: var(--coral);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 40px 0;
+      }
+
+      /* CTA FINAL */
+      .final-cta {
+        padding: 90px 0;
+        text-align: center;
+        color: white;
+        background: linear-gradient(135deg, #0b3d5c, #168bd5);
+      }
+      .final-cta h2 {
+        color: white;
+        max-width: 800px;
+        margin: 0 auto 15px;
+      }
+      .final-cta p {
+        max-width: 650px;
+        margin: 0 auto 28px;
+        color: rgba(255, 255, 255, 0.88);
+      }
+
+      /* FOOTER */
+      footer {
+        background: var(--blue-deep);
+        color: white;
+        padding: 60px 0 25px;
+      }
+      .footer-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 40px;
+      }
+      .footer-logo {
+        width: 75px;
+        margin-bottom: 15px;
+      }
+      footer h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+      footer a {
+        color: #b8cbd3;
+        font-size: 12px;
+        display: block;
+        margin-bottom: 8px;
+      }
+      footer a:hover {
+        color: white;
+      }
+      footer p {
+        color: #afc3cb;
+        font-size: 12px;
+        max-width: 350px;
+      }
+      .copyright {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+        color: #88a4ae;
+        font-size: 11px;
+      }
+
+      /* REDES SOCIAIS DO FOOTER */
+      .social-links {
+        display: flex;
+        gap: 12px;
+        margin-top: 22px;
+      }
+      .social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.06);
+        color: #b8cbd3;
+        transition: all 0.3s ease;
+      }
+      .social-links a:hover {
+        background: var(--blue);
+        color: white;
+        transform: translateY(-4px);
+        box-shadow: 0 5px 15px rgba(22, 139, 213, 0.4);
+      }
+      .social-links svg {
+        width: 18px;
+        height: 18px;
+        fill: currentColor;
+      }
+
+      /* WHATSAPP FLUTUANTE */
+      .whatsapp {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: #25d366;
+        color: white;
+        display: grid;
+        place-items: center;
+        z-index: 999;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        transition: 0.2s;
+      }
+      .whatsapp:hover {
+        transform: scale(1.08);
+      }
+
+      /* =========================================================
+   CARROSSEL DE IMAGENS DOS CARDS (EFEITO FADE)
+========================================================== */
+      .card-carousel {
+        position: relative;
+        width: 100%;
+        height: 270px;
+        overflow: hidden;
+      }
+      .card-carousel-track {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      .card-carousel-track img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0; /* Começa invisível */
+        transition: opacity 0.6s ease-in-out; /* O segredo do Fade está aqui */
+        z-index: 1;
+      }
+      .card-carousel-track img.active {
+        opacity: 1; /* Foto ativa fica visível */
+        z-index: 2;
+      }
+
+      /* O resto continua igual... */
+      .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(255, 255, 255, 0.8);
+        color: var(--blue-dark);
+        border: none;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        z-index: 10;
+        font-weight: 800;
+        font-size: 14px;
+        transition: 0.3s;
+      }
+      .carousel-btn:hover {
+        background: var(--blue-dark);
+        color: white;
+      }
+      .carousel-btn.prev {
+        left: 10px;
+      }
+      .carousel-btn.next {
+        right: 10px;
+      }
+
+      .carousel-dots {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 6px;
+        z-index: 10;
+      }
+      .carousel-dots .dot-card {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .carousel-dots .dot-card.active {
+        background: white;
+        transform: scale(1.3);
+      }
+
+      /* RESPONSIVO */
+      @media (max-width: 950px) {
+        .desktop-nav {
+          display: none;
+        }
+        .mobile-btn {
+          display: block;
+        }
+        .benefits-grid,
+        .why-grid,
+        .experience-grid,
+        .steps-grid,
+        .footer-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .transfer-grid,
+        .colonia-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 650px) {
+        .container {
+          width: min(calc(100% - 28px), var(--max));
+        }
+        section {
+          padding: 65px 0;
+        }
+        .header {
+          min-height: 70px;
+        }
+        .logo img {
+          width: 50px;
+          height: 50px;
+        }
+        .logo-name {
+          font-size: 16px;
+        }
+
+        .hero {
+          min-height: 680px;
+          background-position: 65% center;
+        }
+        h1 {
+          font-size: 43px;
+          letter-spacing: -1.5px;
+        }
+        .hero-text {
+          font-size: 16px;
+        }
+        .hero-buttons {
+          flex-direction: column;
+        }
+        .hero-buttons .btn {
+          width: 100%;
+        }
+
+        .benefits-grid,
+        .service-grid,
+        .experience-grid,
+        .why-grid,
+        .review-slide,
+        .steps-grid,
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+        .airport-boxes {
+          grid-template-columns: 1fr;
+        }
+        .transfer-image,
+        .colonia-image {
+          height: 350px;
+        }
+        .service-image {
+          height: 230px;
+        }
+        .experience-card {
+          min-height: 320px;
+        }
+        .contact-wrapper {
+          padding: 25px 20px;
+        }
+        .whatsapp {
+          width: 56px;
+          height: 56px;
+          right: 15px;
+          bottom: 15px;
+        }
+      }
+
+      /* ANIMAÇÃO DE ENTRADA (SCROLL REVEAL) */
+      .reveal {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.8s ease-out;
+        will-change: opacity, transform;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js",
+      );
+      fbq("init", "3343868556001508");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=3343868556001508&ev=PageView&noscript=1"
+    /></noscript>
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7HKEGKDCKM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-7HKEGKDCKM");
+    </script>
+  </head>
+
+  <body id="inicio">
+    <header>
+      <div class="container header">
+        <a
+          href="/"
+          class="logo"
+          aria-label="TurismundoARG - Turismo em Buenos Aires"
+        >
+          <img
+            src="logo.png"
+            alt="TurismundoARG"
+            width="60"
+            height="60"
+            fetchpriority="high"
+          />
+          <div class="logo-name">TURISMUNDO<br /><span>ARG</span></div>
+        </a>
+
+        <button
+          id="mobile-menu-btn"
+          class="mobile-btn"
+          aria-label="Abrir Menu"
+        ></button>
+
+        <nav class="desktop-nav">
+          <a href="#inicio">Início</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#passeios">Passeios</a>
+          <a href="#tango">Tango</a>
+          <a href="#por-que">Por que nós</a>
+          <a href="#faq">Dúvidas</a>
+          <a href="#contato">Contato</a>
+          <a
+            href="https://wa.me/5491126323743"
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener"
+            >✈️ Quero viajar</a
+          >
+        </nav>
+      </div>
+
+      <nav id="mobile-menu" class="mobile-menu">
+        <a href="#inicio" class="mobile-link">Início</a>
+        <a href="#servicos" class="mobile-link">Serviços</a>
+        <a href="#passeios" class="mobile-link">Passeios</a>
+        <a href="#tango" class="mobile-link">Tango</a>
+        <a href="#por-que" class="mobile-link">Por que nós</a>
+        <a href="#faq" class="mobile-link">Dúvidas</a>
+        <a href="#contato" class="mobile-link">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO COM VÍDEO -->
+      <section class="hero">
+        <!-- Vídeo de Fundo -->
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          poster="imagens/capa.jpeg"
+          class="hero-video"
+        >
+          <!-- Substitua o nome do arquivo abaixo pelo nome do seu vídeo -->
+          <source src="imagens/colon.MP4" type="video/mp4" />
+        </video>
+
+        <!-- Camada Escura (Degradê) para dar leitura ao texto -->
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+          <div class="hero-content">
+            <div class="eyebrow">Turismo em Buenos Aires para brasileiros</div>
+            <h1>
+              Viva Buenos Aires <span>como uma experiência inesquecível.</span>
+            </h1>
+            <p class="hero-text">
+              Transfers, passeios, experiências e shows de tango para você
+              aproveitar Buenos Aires sem perder tempo com planejamento. Conte
+              com a TurismundoARG para transformar sua viagem em momentos que
+              você vai querer guardar para sempre.
+            </p>
+            <div class="hero-buttons">
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/5491126323743"
+                target="_blank"
+                rel="noopener"
+                >✈️ Planejar minha viagem</a
+              >
+              <a class="btn btn-outline" href="#servicos"
+                >Conhecer os serviços →</a
+              >
+            </div>
+            <div class="trust-line">
+              🇧🇷 Atendimento especializado para brasileiros em Buenos Aires
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits-grid">
+            <article class="benefit">
+              <div class="benefit-icon">✓</div>
+              <div>
+                <h3>Atendimento em português</h3>
+                <p>Mais facilidade para planejar sua viagem.</p>
+              </div>
+            </article>
+            <article class="benefit">
+              <div class="benefit-icon">✈</div>
+              <div>
+                <h3>Experiências selecionadas</h3>
+                <p>Passeios para conhecer Buenos Aires.</p>
+              </div>
+            </article>
+            <article class="benefit">
+              <div class="benefit-icon">♡</div>
+              <div>
+                <h3>Suporte ao viajante</h3>
+                <p>Conte com nossa equipe durante sua experiência.</p>
+              </div>
+            </article>
+            <article class="benefit">
+              <div class="benefit-icon">📍</div>
+              <div>
+                <h3>Turismo em Buenos Aires</h3>
+                <p>Conheça a cidade além dos pontos tradicionais.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="services">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-tag">Nossos serviços</div>
+            <h2>Tudo o que você precisa para aproveitar Buenos Aires</h2>
+            <p>
+              Do momento em que você desembarca até os últimos momentos da
+              viagem, a TurismundoARG ajuda você a organizar experiências que
+              combinam com seu roteiro.
+            </p>
+          </div>
+          <div class="service-grid">
+            <!-- CARD 1: EZEIZA -->
+            <article class="service-card">
+              <div class="card-carousel">
+                <div class="card-carousel-track">
+                  <img
+                    src="imagens/ezeizaa.png"
+                    alt="Transfer Ezeiza 1"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/ezeiza2.jpg"
+                    alt="Transfer Ezeiza 2"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/ezeiza3.jpg"
+                    alt="Transfer Ezeiza 3"
+                    loading="lazy"
+                  />
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">
+                  ❮
+                </button>
+                <button class="carousel-btn next" aria-label="Próximo">
+                  ❯
+                </button>
+                <div class="carousel-dots">
+                  <span class="dot-card active"></span>
+                  <span class="dot-card"></span>
+                  <span class="dot-card"></span>
+                </div>
+              </div>
+              <div class="service-body">
+                <span class="service-label"> Ministro Pistarini </span>
+                <h3>Transfer de Ezeiza ou para Ezeiza</h3>
+                <p>
+                  Fuja do stress e da insegurança. Após um voo cansativo, tenha
+                  um rosto amigo à sua espera no desembarque para levá-lo com
+                  total segurança a sua hospedagem.
+                </p>
+                <ul class="service-list">
+                  <li>Monitoramos o seu voo</li>
+                  <li>Carros espaçosos para bagagens</li>
+                  <li>Motoristas de extrema confiança</li>
+                </ul>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Gostaria%20de%20saber%20sobre%20o%20Transfer%20Ezeiza."
+                  class="service-link"
+                  target="_blank"
+                  rel="noopener"
+                  >Consultar Transfer Ezeiza →</a
+                >
+              </div>
+            </article>
+
+            <!-- CARD 2: AEROPARQUE -->
+            <article class="service-card">
+              <div class="card-carousel">
+                <div class="card-carousel-track">
+                  <img
+                    src="imagens/jn.png"
+                    alt="Transfer Aeroparque 1"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/aep2.jpg"
+                    alt="Transfer Aeroparque 2"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/aep3.jpg"
+                    alt="Transfer Aeroparque 3"
+                    loading="lazy"
+                  />
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">
+                  ❮
+                </button>
+                <button class="carousel-btn next" aria-label="Próximo">
+                  ❯
+                </button>
+                <div class="carousel-dots">
+                  <span class="dot-card active"></span>
+                  <span class="dot-card"></span>
+                  <span class="dot-card"></span>
+                </div>
+              </div>
+              <div class="service-body">
+                <span class="service-label"> Jorge Newbery </span>
+                <h3>Transfer do Aeroparque ou para ele</h3>
+                <p>
+                  Pousou no coração da cidade? Escape da confusão do saguão e
+                  comece a sua viagem imediatamente num carro confortável. é da
+                  fila da imigração para o carro e do carro para o hotel!
+                </p>
+                <ul class="service-list">
+                  <li>Atendimento para brasileiros</li>
+                  <li>Fuja das filas de táxis e carros por aplicativo</li>
+                  <li>Agilidade + Conforto + praticidade na chegada</li>
+                </ul>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Gostaria%20de%20saber%20sobre%20o%20Transfer%20Aeroparque."
+                  class="service-link"
+                  target="_blank"
+                  rel="noopener"
+                  >Consultar Transfer Aeroparque →</a
+                >
+              </div>
+            </article>
+
+            <!-- CARD 3: CITY TOUR -->
+            <article class="service-card">
+              <div class="card-carousel">
+                <div class="card-carousel-track">
+                  <img
+                    src="imagens/tour.png"
+                    alt="City Tour 1"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/tour2.jpg"
+                    alt="City Tour 2"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/tour3.png"
+                    alt="City Tour 3"
+                    loading="lazy"
+                  />
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">
+                  ❮
+                </button>
+                <button class="carousel-btn next" aria-label="Próximo">
+                  ❯
+                </button>
+                <div class="carousel-dots">
+                  <span class="dot-card active"></span>
+                  <span class="dot-card"></span>
+                  <span class="dot-card"></span>
+                </div>
+              </div>
+              <div class="service-body">
+                <span class="service-label"> Passeio </span>
+                <h3>City Tour Privado ou Compartilhado</h3>
+                <p>
+                  Descubra os principais lugares de Buenos Aires e conheça a
+                  história, arquitetura e cultura da capital argentina.
+                </p>
+                <ul class="service-list">
+                  <li>Principais pontos turísticos</li>
+                  <li>Experiência para primeira visita</li>
+                  <li>Roteiro pensado para aproveitar o tempo</li>
+                </ul>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Gostaria%20de%20saber%20sobre%20o%20City%20Tour."
+                  class="service-link"
+                  target="_blank"
+                  rel="noopener"
+                  >Quero conhecer Buenos Aires →</a
+                >
+              </div>
+            </article>
+
+            <!-- CARD 4: TIGRE -->
+            <article class="service-card">
+              <div class="card-carousel">
+                <div class="card-carousel-track">
+                  <img
+                    src="imagens/tigree.png"
+                    alt="Passeio ao Tigre 1"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/tigre2.jpg"
+                    alt="Passeio ao Tigre 2"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/tigre3.jpg"
+                    alt="Passeio ao Tigre 3"
+                    loading="lazy"
+                  />
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">
+                  ❮
+                </button>
+                <button class="carousel-btn next" aria-label="Próximo">
+                  ❯
+                </button>
+                <div class="carousel-dots">
+                  <span class="dot-card active"></span>
+                  <span class="dot-card"></span>
+                  <span class="dot-card"></span>
+                </div>
+              </div>
+              <div class="service-body">
+                <span class="service-label"> Passeio </span>
+                <h3>Passeio ao Tigre e Delta do Paraná</h3>
+                <p>
+                  Saia do ritmo da capital e descubra a região do Delta do
+                  Paraná em uma experiência diferente durante sua viagem.
+                </p>
+                <ul class="service-list">
+                  <li>Paisagens e natureza</li>
+                  <li>Experiência fora do centro</li>
+                  <li>Excelente opção para seu roteiro</li>
+                </ul>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Gostaria%20de%20saber%20sobre%20o%20passeio%20ao%20Tigre."
+                  class="service-link"
+                  target="_blank"
+                  rel="noopener"
+                  >Quero conhecer o Tigre →</a
+                >
+              </div>
+            </article>
+
+            <!-- CARD 5: CAMPANÓPOLIS -->
+            <article class="service-card">
+              <div class="card-carousel">
+                <div class="card-carousel-track">
+                  <img
+                    src="imagens/campanopolis.jpeg"
+                    alt="Campanópolis 1"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/campa2.jfif"
+                    alt="Campanópolis 2"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/campa3.jfif"
+                    alt="Campanópolis 3"
+                    loading="lazy"
+                  />
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">
+                  ❮
+                </button>
+                <button class="carousel-btn next" aria-label="Próximo">
+                  ❯
+                </button>
+                <div class="carousel-dots">
+                  <span class="dot-card active"></span>
+                  <span class="dot-card"></span>
+                  <span class="dot-card"></span>
+                </div>
+              </div>
+              <div class="service-body">
+                <span class="service-label"> Experiência </span>
+                <h3>Campanópolis</h3>
+                <p>
+                  Conheça um dos lugares mais curiosos e fotogênicos da região
+                  de Buenos Aires, perfeito para quem busca uma experiência
+                  diferente.
+                </p>
+                <ul class="service-list">
+                  <li>Arquitetura e cenários únicos</li>
+                  <li>Experiência fotográfica</li>
+                  <li>Passeio diferente do roteiro tradicional</li>
+                </ul>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Gostaria%20de%20saber%20sobre%20Campanópolis."
+                  class="service-link"
+                  target="_blank"
+                  rel="noopener"
+                  >Conhecer Campanópolis →</a
+                >
+              </div>
+            </article>
+
+            <!-- CARD 6: BODEGA GAMBOA -->
+            <article class="service-card">
+              <div class="card-carousel">
+                <div class="card-carousel-track">
+                  <img
+                    src="imagens/gamb.jpeg"
+                    alt="Bodega Gamboa 1"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/gamboa2.jfif"
+                    alt="Bodega Gamboa 2"
+                    loading="lazy"
+                  />
+                  <img
+                    src="imagens/gamboa3.avif"
+                    alt="Bodega Gamboa 3"
+                    loading="lazy"
+                  />
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">
+                  ❮
+                </button>
+                <button class="carousel-btn next" aria-label="Próximo">
+                  ❯
+                </button>
+                <div class="carousel-dots">
+                  <span class="dot-card active"></span>
+                  <span class="dot-card"></span>
+                  <span class="dot-card"></span>
+                </div>
+              </div>
+              <div class="service-body">
+                <span class="service-label"> Gastronomia e vinho </span>
+                <h3>Bodega Gamboa</h3>
+                <p>
+                  Uma experiência para quem quer conhecer o lado gastronômico e
+                  vitivinícola da região durante sua viagem à Argentina.
+                </p>
+                <ul class="service-list">
+                  <li>Experiência de enoturismo</li>
+                  <li>Paisagens e gastronomia</li>
+                  <li>Ideal para casais e amantes de vinho</li>
+                </ul>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Gostaria%20de%20saber%20sobre%20a%20Bodega%20Gamboa."
+                  class="service-link"
+                  target="_blank"
+                  rel="noopener"
+                  >Quero conhecer a Bodega Gamboa →</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="transfer-section">
+        <div class="container">
+          <div class="transfer-grid">
+            <img
+              class="transfer-image"
+              src="imagens/Ezeiza.png"
+              alt="Transfer turístico"
+              loading="lazy"
+            />
+            <div class="transfer-content">
+              <div class="section-tag">Chegue tranquilo</div>
+              <h2>Transfers em Buenos Aires sem complicação</h2>
+              <p>
+                Depois de horas de viagem, a última coisa que você precisa é se
+                preocupar com transporte. A TurismundoARG ajuda você a organizar
+                seu deslocamento entre os aeroportos e sua hospedagem.
+              </p>
+              <div class="airport-boxes">
+                <div class="airport">
+                  <strong> ✈️ Ezeiza </strong
+                  ><span> Aeroporto Internacional Ministro Pistarini </span>
+                </div>
+                <div class="airport">
+                  <strong> ✈️ Aeroparque </strong
+                  ><span> Aeroporto Jorge Newbery </span>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/5491126323743"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener"
+                >Solicitar meu transfer</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="passeios" class="experiences">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-tag">Experiências em Buenos Aires</div>
+            <h2>Escolha como você quer viver a Argentina</h2>
+            <p>
+              Buenos Aires vai muito além dos pontos turísticos. Escolha
+              experiências que combinam com seu estilo de viagem.
+            </p>
+          </div>
+          <div class="experience-grid">
+            <article class="experience-card">
+              <img src="imagens/flor.jpg" alt="City Tour" loading="lazy" />
+              <div class="experience-content">
+                <h3>City Tour</h3>
+                <p>Conheça os principais cartões-postais de Buenos Aires.</p>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Quero%20informações%20sobre%20o%20City%20Tour."
+                  >Saber mais →</a
+                >
+              </div>
+            </article>
+            <article class="experience-card">
+              <img
+                src="imagens/tigre.jpg"
+                alt="Delta do Tigre"
+                loading="lazy"
+              />
+              <div class="experience-content">
+                <h3>Tigre</h3>
+                <p>
+                  Natureza, rio e uma experiência diferente fora da capital.
+                </p>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Quero%20informações%20sobre%20o%20passeio%20ao%20Tigre."
+                  >Saber mais →</a
+                >
+              </div>
+            </article>
+            <article class="experience-card">
+              <img src="imagens/campa.jpg" alt="Campanópolis" loading="lazy" />
+              <div class="experience-content">
+                <h3>Campanópolis</h3>
+                <p>Um passeio diferente para sair do roteiro convencional.</p>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Quero%20informações%20sobre%20Campanópolis."
+                  >Saber mais →</a
+                >
+              </div>
+            </article>
+            <article class="experience-card">
+              <img src="imagens/gamboa.webp" alt="Bodega" loading="lazy" />
+              <div class="experience-content">
+                <h3>Bodega Gamboa</h3>
+                <p>Uma experiência para os amantes de vinho e gastronomia.</p>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Quero%20informações%20sobre%20a%20Bodega%20Gamboa."
+                  >Saber mais →</a
+                >
+              </div>
+            </article>
+            <article class="experience-card">
+              <img
+                src="imagens/sacramento.png"
+                alt="Colonia del Sacramento"
+                loading="lazy"
+              />
+              <div class="experience-content">
+                <h3>Colonia del Sacramento</h3>
+                <p>
+                  Uma viagem internacional saindo de Buenos Aires rumo ao
+                  Uruguai.
+                </p>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Quero%20informações%20sobre%20Colonia%20del%20Sacramento."
+                  >Saber mais →</a
+                >
+              </div>
+            </article>
+            <article class="experience-card">
+              <img src="imagens/porte.jpg" alt="Show de tango" loading="lazy" />
+              <div class="experience-content">
+                <h3>Show de Tango</h3>
+                <p>
+                  Viva uma das experiências mais tradicionais de Buenos Aires.
+                </p>
+                <a
+                  href="https://wa.me/5491126323743?text=Olá!%20Quero%20informações%20sobre%20shows%20de%20tango."
+                  >Saber mais →</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tango" class="tango">
+        <div class="container">
+          <div class="tango-content">
+            <div class="section-tag" style="color: #a5e65f">
+              Uma noite em Buenos Aires
+            </div>
+            <h2>Viva o tango de verdade.</h2>
+            <p>
+              Uma viagem a Buenos Aires não está completa sem sentir a força, a
+              música e a paixão do tango. Consulte as opções disponíveis e
+              encontre uma experiência que combine com seu roteiro.
+            </p>
+            <a
+              href="https://wa.me/5491126323743?text=Olá!%20Quero%20saber%20sobre%20os%20shows%20de%20tango."
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener"
+              >🎭 Quero conhecer os shows de tango</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="colonia">
+        <div class="container">
+          <div class="colonia-grid">
+            <img
+              src="imagens/colonia.png"
+              alt="Colonia del Sacramento"
+              class="colonia-image"
+              loading="lazy"
+            />
+            <div class="colonia-content">
+              <div class="section-tag">Experiência internacional</div>
+              <h2>De Buenos Aires ao charme de Colonia del Sacramento</h2>
+              <p>
+                Que tal aproveitar sua viagem à Argentina para conhecer também
+                uma das cidades históricas mais encantadoras do Uruguai?
+              </p>
+              <p>
+                Colonia del Sacramento combina história, arquitetura, ruas
+                charmosas e uma atmosfera completamente diferente de Buenos
+                Aires.
+              </p>
+              <a
+                href="https://wa.me/5491126323743?text=Olá!%20Quero%20informações%20sobre%20Colonia%20del%20Sacramento."
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener"
+                >Quero conhecer Colonia</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-tag">Simples e fácil</div>
+            <h2>Planejar sua experiência pode ser muito mais simples</h2>
+            <p>
+              Você conte o que deseja fazer e nossa equipe ajuda você a
+              encontrar as melhores opções para o seu roteiro.
+            </p>
+          </div>
+          <div class="steps-grid">
+            <article class="step">
+              <div class="step-number">01</div>
+              <h3>Conte o que você deseja</h3>
+              <p>
+                Envie uma mensagem pelo WhatsApp e conte quando você estará em
+                Buenos Aires.
+              </p>
+            </article>
+            <article class="step">
+              <div class="step-number">02</div>
+              <h3>Escolha suas experiências</h3>
+              <p>
+                Nossa equipe apresenta as opções de passeios e serviços
+                disponíveis.
+              </p>
+            </article>
+            <article class="step">
+              <div class="step-number">03</div>
+              <h3>Monte seu roteiro</h3>
+              <p>
+                Combine transfers, passeios e experiências de acordo com seus
+                planos.
+              </p>
+            </article>
+            <article class="step">
+              <div class="step-number">04</div>
+              <h3>Aproveite Buenos Aires</h3>
+              <p>
+                Agora é só aproveitar a viagem e criar histórias para levar para
+                casa.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="por-que" class="why">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-tag">TurismundoARG</div>
+            <h2>Por que contar com a TurismundoARG?</h2>
+            <p>
+              Nossa proposta é tornar sua experiência em Buenos Aires mais
+              simples, organizada e especial.
+            </p>
+          </div>
+          <div class="why-grid">
+            <article class="why-card">
+              <div class="why-icon">🇧🇷</div>
+              <h3>Falamos português</h3>
+              <p>
+                Atendimento pensado especialmente para brasileiros que visitam
+                Buenos Aires.
+              </p>
+            </article>
+            <article class="why-card">
+              <div class="why-icon">📍</div>
+              <h3>Conheça Buenos Aires</h3>
+              <p>
+                Tenha acesso a experiências que ajudam você a aproveitar melhor
+                seu tempo.
+              </p>
+            </article>
+            <article class="why-card">
+              <div class="why-icon">🗺️</div>
+              <h3>Monte seu roteiro</h3>
+              <p>
+                Combine diferentes serviços e experiências para criar uma viagem
+                com a sua cara.
+              </p>
+            </article>
+            <article class="why-card">
+              <div class="why-icon">💬</div>
+              <h3>Atendimento próximo</h3>
+              <p>
+                Você fala diretamente com nossa equipe para tirar dúvidas e
+                organizar sua viagem.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEPOIMENTOS CARROSSEL -->
+      <section class="reviews">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-tag">Experiências reais</div>
+            <h2>Quem viaja com a gente leva boas histórias para casa.</h2>
+            <p>
+              Confira o que os brasileiros estão achando das experiências com a
+              TurismundoARG.
+            </p>
+          </div>
+
+          <div class="reviews-slider">
+            <!-- GRUPO 1 -->
+            <div class="review-slide active">
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "O transfer com a TurismundoARG foi perfeito! Chegamos em
+                  Ezeiza cansados e o motorista já estava nos esperando. Super
+                  atenciosos!"
+                </p>
+                <strong>Mariana Silva</strong>
+              </article>
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "Fizemos o City Tour e foi incrível. Conhecemos a história de
+                  Buenos Aires de um jeito super leve. Atendimento nota 1000!"
+                </p>
+                <strong>Carlos Eduardo</strong>
+              </article>
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "O show de Tango foi a melhor noite da nossa viagem. A equipe
+                  ajudou na reserva e pegamos os melhores lugares. Recomendo
+                  muito!"
+                </p>
+                <strong>Amanda Oliveira</strong>
+              </article>
+            </div>
+
+            <!-- GRUPO 2 -->
+            <div class="review-slide">
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "Fomos para a Bodega Gamboa e que experiência maravilhosa!
+                  Vinho excelente e um cenário de filme. Obrigada por
+                  organizarem tudo."
+                </p>
+                <strong>Ricardo & Paula</strong>
+              </article>
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "Nunca imaginei que Colonia del Sacramento fosse tão charmosa.
+                  A agência cuidou das passagens do barco e do roteiro. Foi
+                  perfeito."
+                </p>
+                <strong>Fernanda Costa</strong>
+              </article>
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "Passeio ao Tigre é obrigatório! Sair um pouco da loucura da
+                  cidade e relaxar na natureza foi ótimo. Guia super simpático."
+                </p>
+                <strong>João Pedro</strong>
+              </article>
+            </div>
+
+            <!-- GRUPO 3 -->
+            <div class="review-slide">
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "Campanópolis parece um conto de fadas. Rendeu fotos
+                  maravilhosas. A van era super confortável e o motorista
+                  pontual."
+                </p>
+                <strong>Beatriz Souza</strong>
+              </article>
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "O diferencial de ter atendimento em português faz toda a
+                  diferença. Me senti super seguro desde o primeiro contato pelo
+                  WhatsApp."
+                </p>
+                <strong>Lucas Mendes</strong>
+              </article>
+              <article class="review">
+                <div class="stars">★★★★★</div>
+                <p>
+                  "Fechamos o pacote completo: Ezeiza, City Tour e Tango. Tudo
+                  funcionou como um relógio. Viajar sem preocupação não tem
+                  preço!"
+                </p>
+                <strong>Família Ribeiro</strong>
+              </article>
+            </div>
+          </div>
+
+          <!-- Bolinhas de Navegação -->
+          <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-tag">Dúvidas frequentes</div>
+            <h2>Perguntas frequentes sobre turismo em Buenos Aires</h2>
+          </div>
+          <div class="faq-wrapper">
+            <details>
+              <summary>
+                A TurismundoARG atende brasileiros em Buenos Aires?
+              </summary>
+              <p>
+                Sim. A TurismundoARG trabalha com atendimento voltado para
+                brasileiros que visitam Buenos Aires, oferecendo serviços
+                turísticos e experiências para ajudar a aproveitar melhor a
+                viagem.
+              </p>
+            </details>
+            <details>
+              <summary>Vocês fazem transfer do Aeroporto de Ezeiza?</summary>
+              <p>
+                Sim. A TurismundoARG oferece serviço de transfer entre o
+                Aeroporto Internacional de Ezeiza e sua hospedagem em Buenos
+                Aires. Entre em contato para consultar disponibilidade e
+                condições.
+              </p>
+            </details>
+            <details>
+              <summary>Vocês fazem transfer do Aeroparque?</summary>
+              <p>
+                Sim. Também trabalhamos com transfer a partir do Aeroparque
+                Jorge Newbery. Fale conosco para organizar seu deslocamento.
+              </p>
+            </details>
+            <details>
+              <summary>Quais passeios vocês oferecem em Buenos Aires?</summary>
+              <p>
+                Entre as experiências oferecidas estão City Tour, Tigre,
+                Campanópolis, Bodega Gamboa, Colonia del Sacramento e shows de
+                tango.
+              </p>
+            </details>
+            <details>
+              <summary>
+                É possível fazer Colonia del Sacramento durante uma viagem a
+                Buenos Aires?
+              </summary>
+              <p>
+                Sim. Colonia del Sacramento é uma opção de experiência
+                internacional para quem está visitando Buenos Aires. Consulte
+                nossa equipe para conhecer as opções disponíveis para sua data.
+              </p>
+            </details>
+            <details>
+              <summary>Como posso solicitar um orçamento?</summary>
+              <p>
+                É simples. Clique em qualquer botão de atendimento pelo WhatsApp
+                e informe suas datas, quantidade de pessoas e quais experiências
+                deseja realizar. Nossa equipe poderá orientar você sobre as
+                opções.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="contact">
+        <div class="container">
+          <div
+            class="section-heading"
+            style="text-align: center; margin: 0 auto 40px"
+          >
+            <div class="section-tag">Fale Conosco</div>
+            <h2>Planejando um roteiro especial?</h2>
+            <p>
+              Se preferir, preencha os dados abaixo e nossa equipe entrará em
+              contato com um orçamento detalhado para o seu grupo.
+            </p>
+          </div>
+          <div class="contact-wrapper reveal">
+            <!-- IMPORTANTE: Substitua seu-email@dominio.com.br pelo e-mail oficial da agência -->
+            <form
+              data-form
+              action="https://formsubmit.co/ajax/contato@turismundoarg.com.br"
+              method="POST"
+              class="contact-form"
+            >
+              <input
+                type="text"
+                name="nome"
+                placeholder="Seu nome completo"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Seu e-mail"
+                required
+              />
+              <input
+                type="text"
+                name="whatsapp"
+                placeholder="Seu WhatsApp (com DDD)"
+                required
+              />
+              <textarea
+                name="mensagem"
+                placeholder="Conte mais sobre sua viagem (datas, número de pessoas, passeios desejados...)"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit" data-button class="btn btn-primary">
+                ✉️ Enviar Mensagem
+              </button>
+              <script>
+                document
+                  .querySelector("form")
+                  .addEventListener("submit", function (e) {
+                    // Procura o campo onde o cliente digitou o número
+                    let campoZap = document.querySelector(
+                      'input[name="whatsapp"]',
+                    );
+
+                    if (campoZap && campoZap.value !== "") {
+                      // Deixa apenas os números puros (remove traços, espaços e parênteses)
+                      let numeroLimpo = campoZap.value.replace(/\D/g, "");
+
+                      // Cria um campo invisível com o link oficial do WhatsApp
+                      let campoLink = document.createElement("input");
+                      campoLink.type = "hidden";
+                      campoLink.name = "Link_Direto_WhatsApp";
+                      campoLink.value = "https://wa.me/" + numeroLimpo;
+
+                      // Anexa esse link oculto para ser enviado para o seu Zoho
+                      this.appendChild(campoLink);
+                    }
+                  });
+              </script>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="container">
+          <h2>Sua viagem para Buenos Aires começa aqui.</h2>
+          <p>
+            Conte para a TurismundoARG o que você gostaria de conhecer e deixe
+            nossa equipe ajudar a transformar seus planos em uma experiência
+            inesquecível.
+          </p>
+          <a
+            href="https://wa.me/5491126323743?text=Olá!%20Estou%20planejando%20uma%20viagem%20para%20Buenos%20Aires%20e%20gostaria%20de%20conhecer%20os%20serviços%20da%20TurismundoARG."
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener"
+            >✈️ Quero planejar minha viagem</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <img
+              src="logo.png"
+              alt="TurismundoARG"
+              class="footer-logo"
+              width="75"
+              height="75"
+              loading="lazy"
+            />
+            <p>
+              TurismundoARG é uma agência de turismo receptivo em Buenos Aires,
+              especializada em experiências para brasileiros.
+            </p>
+            <!-- INÍCIO DAS REDES SOCIAIS -->
+            <div class="social-links">
+              <!-- INSTAGRAM -->
+              <a
+                href="https://www.instagram.com/turismundoarg/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram da TurismundoARG"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+              <!-- TIKTOK -->
+              <a
+                href="https://www.tiktok.com/@turismundoar"
+                target="_blank"
+                rel="noopener"
+                aria-label="TikTok da TurismundoARG"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 2.78-1.15 5.54-3.33 7.31-1.92 1.57-4.58 2.25-6.99 1.58-2.5-.71-4.57-2.61-5.35-5.07-.63-1.98-.5-4.26.43-6.14 1.25-2.51 3.93-4.27 6.75-4.44.01 1.46-.01 2.91.02 4.37-1.39.11-2.82.68-3.77 1.74-.82.91-1.16 2.21-.93 3.41.27 1.45 1.41 2.68 2.83 3.01 1.62.38 3.41-.03 4.54-1.18.99-.99 1.45-2.45 1.41-3.86-.06-4.5-.02-9.01-.04-13.51h.02z"
+                  />
+                </svg>
+              </a>
+              <!-- FACEBOOK -->
+              <a
+                href="https://www.facebook.com/turismundoarg"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook da TurismundoARG"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M22.675 0h-21.35C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495v-9.294h-3.128v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.676V1.325C24 .593 23.407 0 22.675 0z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <!-- FIM DAS REDES SOCIAIS -->
+          </div>
+          <div>
+            <h3>Serviços</h3>
+            <a href="#servicos">Transfer Ezeiza</a>
+            <a href="#servicos">Transfer Aeroparque</a>
+            <a href="#passeios">City Tour</a>
+            <a href="#passeios">Tigre</a>
+          </div>
+          <div>
+            <h3>Experiências</h3>
+            <a href="#passeios">Campanópolis</a>
+            <a href="#passeios">Bodega Gamboa</a>
+            <a href="#passeios">Colonia del Sacramento</a>
+            <a href="#tango">Shows de Tango</a>
+          </div>
+          <div>
+            <h3>Atendimento</h3>
+            <a href="https://wa.me/5491126323743" target="_blank" rel="noopener"
+              >WhatsApp</a
+            >
+            <a href="#faq">Perguntas frequentes</a>
+            <a href="#contato">Fale Conosco</a>
+            <a href="/politica-de-privacidade.html">Privacidade</a>
+            <a href="/termos.html">Termos de uso</a>
+          </div>
+        </div>
+        <div class="copyright">
+          © 2023 TurismundoARG. Todos os direitos reservados. Turismo em Buenos
+          Aires para brasileiros.
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp"
+      href="https://wa.me/5491126323743"
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar pelo WhatsApp"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+        />
+      </svg>
+    </a>
+
+    <script>
+      const year = new Date().getFullYear();
+      const copyright = document.querySelector(".copyright");
+      if (copyright) {
+        copyright.innerHTML = copyright.innerHTML.replace("2026", year);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+              }
+            });
+          },
+          { threshold: 0.1 },
+        );
+
+        const hiddenElements = document.querySelectorAll(
+          ".service-card, .experience-card, .why-card, .step, .review, .contact-wrapper",
+        );
+        hiddenElements.forEach((el) => {
+          el.classList.add("reveal");
+          observer.observe(el);
+        });
+      });
+
+      const btn = document.getElementById("mobile-menu-btn");
+      const menu = document.getElementById("mobile-menu");
+      const mobileLinks = document.querySelectorAll(".mobile-link");
+
+      if (btn && menu) {
+        btn.addEventListener("click", () => {
+          menu.classList.toggle("open");
+          btn.classList.toggle("open");
+        });
+
+        mobileLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            menu.classList.remove("open");
+            btn.classList.remove("open");
+          });
+        });
+      }
+
+      class FormSubmit {
+        constructor(settings) {
+          this.settings = settings;
+          this.form = document.querySelector(settings.form);
+          this.formButton = document.querySelector(settings.button);
+          if (this.form) {
+            this.url = this.form.getAttribute("action");
+          }
+          this.sendForm = this.sendForm.bind(this);
+        }
+
+        displaySuccess() {
+          this.form.innerHTML = this.settings.success;
+        }
+
+        displayError() {
+          this.form.innerHTML = this.settings.error;
+        }
+
+        getFormObject() {
+          const formObject = {};
+          const fields = this.form.querySelectorAll("[name]");
+          fields.forEach((field) => {
+            formObject[field.getAttribute("name")] = field.value;
+          });
+          return formObject;
+        }
+
+        onSubmission(event) {
+          event.preventDefault();
+          this.formButton.disabled = true;
+          this.formButton.innerText = "Enviando...";
+        }
+
+        async sendForm(event) {
+          try {
+            this.onSubmission(event);
+            await fetch(this.url, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+              },
+              body: JSON.stringify(this.getFormObject()),
+            });
+            this.displaySuccess();
+          } catch (error) {
+            this.displayError();
+            throw new Error(error);
+          }
+        }
+
+        init() {
+          if (this.form) {
+            // Mudamos de 'click' no botão para 'submit' no formulário!
+            this.form.addEventListener("submit", this.sendForm);
+          }
+          return this;
+        }
+      }
+
+      const formSubmit = new FormSubmit({
+        form: "[data-form]",
+        button: "[data-button]",
+        success:
+          "<h3 class='success'>Mensagem enviada com sucesso! Em breve entraremos em contato.</h3>",
+        error:
+          "<h3 class='error'>Não foi possível enviar sua mensagem. Tente pelo WhatsApp.</h3>",
+      });
+      formSubmit.init();
+
+      /* =====================================================
+         CARROSSEL DE DEPOIMENTOS
+      ====================================================== */
+      const slides = document.querySelectorAll(".review-slide");
+      const dots = document.querySelectorAll(".dot");
+      let currentSlide = 0;
+      let slideInterval;
+
+      function showSlide(index) {
+        // Remove a classe 'active' de todos
+        slides.forEach((slide) => slide.classList.remove("active"));
+        dots.forEach((dot) => dot.classList.remove("active"));
+
+        // Adiciona a classe 'active' no grupo atual
+        slides[index].classList.add("active");
+        dots[index].classList.add("active");
+        currentSlide = index;
+      }
+
+      function nextSlide() {
+        let next = (currentSlide + 1) % slides.length;
+        showSlide(next);
+      }
+
+      // Inicia a troca automática a cada 5 segundos (5000ms)
+      if (slides.length > 0) {
+        slideInterval = setInterval(nextSlide, 5000);
+
+        // Permite clicar nas bolinhas para trocar manualmente
+        dots.forEach((dot, index) => {
+          dot.addEventListener("click", () => {
+            clearInterval(slideInterval); // Pausa o automático
+            showSlide(index); // Mostra o que foi clicado
+            slideInterval = setInterval(nextSlide, 5000); // Retoma o automático
+          });
+        });
+      }
+      /* =====================================================
+   LÓGICA DO CARROSSEL DOS CARDS (EFEITO FADE + AUTO-PLAY)
+====================================================== */
+      const cardCarousels = document.querySelectorAll(".card-carousel");
+
+      cardCarousels.forEach((carousel) => {
+        const images = carousel.querySelectorAll(".card-carousel-track img");
+        const prevBtn = carousel.querySelector(".prev");
+        const nextBtn = carousel.querySelector(".next");
+        const dots = carousel.querySelectorAll(".dot-card");
+        let currentIndex = 0;
+        const totalImages = images.length;
+        let autoPlayInterval;
+
+        // Garante que a primeira foto comece visível ao carregar a página
+        if (images[0]) images[0].classList.add("active");
+
+        function updateCardCarousel(index) {
+          // Tira a visibilidade (fade out) de todas as fotos
+          images.forEach((img) => img.classList.remove("active"));
+          // Coloca visibilidade (fade in) na nova foto
+          if (images[index]) images[index].classList.add("active");
+
+          // Atualiza a bolinha ativa
+          dots.forEach((dot) => dot.classList.remove("active"));
+          if (dots[index]) dots[index].classList.add("active");
+
+          currentIndex = index;
+        }
+
+        function nextSlide() {
+          let nextIndex = (currentIndex + 1) % totalImages;
+          updateCardCarousel(nextIndex);
+        }
+
+        function startAutoPlay() {
+          autoPlayInterval = setInterval(nextSlide, 2000);
+        }
+
+        function resetAutoPlay() {
+          clearInterval(autoPlayInterval);
+          startAutoPlay();
+        }
+
+        if (prevBtn && nextBtn) {
+          prevBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            let prevIndex = (currentIndex - 1 + totalImages) % totalImages;
+            updateCardCarousel(prevIndex);
+            resetAutoPlay();
+          });
+
+          nextBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            nextSlide();
+            resetAutoPlay();
+          });
+        }
+
+        dots.forEach((dot, index) => {
+          dot.addEventListener("click", (e) => {
+            e.preventDefault();
+            updateCardCarousel(index);
+            resetAutoPlay();
+          });
+        });
+
+        // Inicia o auto-play automático
+        startAutoPlay();
+      });
+    </script>
+  </body>
+</html>
