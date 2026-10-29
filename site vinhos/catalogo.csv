@@ -1,0 +1,366 @@
+bodega,nome,brl,ars,img_url,alta_gama,ativo
+"Novedad","Cuvelier Los Andes Rosado de Malbec (promo lanzamiento)",0,13000,"https://blending-wines-turista.vercel.app/img/vinhos/cuvelier-los-andes-valle-de-uco-rose.jpg",FALSE,TRUE
+"Alma Negra","Alma negra Blanc de Blancs",112,31250,"https://blending-wines-turista.vercel.app/img/vinhos/alma-negra-blanc-de-blancs.jpg",FALSE,FALSE
+"Alma Negra","Alma Negra Tinto (OFERTA)",102,28500,"https://blending-wines-turista.vercel.app/img/vinhos/alma-negra-tinto-oferta.jpg",FALSE,TRUE
+"Alma Negra","Alma Negra Brut Nature Rose",123,34375,"https://blending-wines-turista.vercel.app/img/vinhos/alma-negra-brut-nature-rose.jpg",FALSE,FALSE
+"Alma Negra","Alma Negra Orange",192,53750,"https://blending-wines-turista.vercel.app/img/vinhos/alma-negra-orange.jpg",FALSE,FALSE
+"Atamisque","Atamisque Assemblage",194,54375,"https://blending-wines-turista.vercel.app/img/vinhos/atamisque-assemblage.jpg",FALSE,FALSE
+"Atamisque","Atamisque Malbec",179,50000,"https://blending-wines-turista.vercel.app/img/vinhos/atamisque-malbec.jpg",FALSE,TRUE
+"Atamisque","Catalpa Cabernet Franc",65,18125,"https://blending-wines-turista.vercel.app/img/vinhos/catalpa-cabernet-franc.jpg",FALSE,TRUE
+"Atamisque","Catalpa Pinot Noir",65,18125,"https://blending-wines-turista.vercel.app/img/vinhos/catalpa-pinot-noir.jpg",FALSE,TRUE
+"Atamisque","Catalpa Chardonnay",65,18125,"https://blending-wines-turista.vercel.app/img/vinhos/catalpa-chardonnay.jpg",FALSE,TRUE
+"Atamisque","Catalpa Malbec",65,18125,"https://blending-wines-turista.vercel.app/img/vinhos/catalpa-malbec.jpg",FALSE,TRUE
+"Atamisque","Serbal Cabernet Franc",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/serbal-cabernet-franc.jpg",FALSE,TRUE
+"Atamisque","Serbal Malbec",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/serbal-malbec.jpg",FALSE,TRUE
+"Atamisque","Serbal Rosé",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/serbal-rose.jpg",FALSE,TRUE
+"Atamisque","Serbal Petite Verdot",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/serbal-petite-verdot.jpg",FALSE,TRUE
+"Atamisque","Serbal Assemblage",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/serbal-assemblage.jpg",FALSE,TRUE
+"Atamisque","Philippe Caraguel Extra Brut",58,16250,"https://blending-wines-turista.vercel.app/img/vinhos/philippe-caraguel-extra-brut.jpg",FALSE,TRUE
+"Atamisque","Philippe Caraguel Extra Brut Rosé",58,16250,"https://blending-wines-turista.vercel.app/img/vinhos/philippe-caraguel-extra-brut-rose.jpg",FALSE,TRUE
+"Bressia","Monteagrelo Malbec",86,24000,"https://blending-wines-turista.vercel.app/img/vinhos/monteagrelo-malbec.jpg",FALSE,TRUE
+"Bressia","Monteagrelo Cabernet Franc",86,24000,"https://blending-wines-turista.vercel.app/img/vinhos/monteagrelo-cabernet-franc.jpg",FALSE,TRUE
+"Bressia","Monteagrelo Cabernet Sauv",86,24000,"https://blending-wines-turista.vercel.app/img/vinhos/monteagrelo-cabernet-sauv.jpg",FALSE,FALSE
+"Bressia","Bressia Lagrima Canela",134,37500,"https://blending-wines-turista.vercel.app/img/vinhos/bressia-lagrima-canela.jpg",FALSE,TRUE
+"Bressia","Bressia Piel Negra (Pinot Noir)",176,49375,"https://blending-wines-turista.vercel.app/img/vinhos/bressia-piel-negra-pinot-noir.jpg",FALSE,TRUE
+"Bressia","Bressia Profundo",134,37500,"https://blending-wines-turista.vercel.app/img/vinhos/bressia-profundo.jpg",FALSE,TRUE
+"Bressia","Bressia Conjuro",277,77500,"https://blending-wines-turista.vercel.app/img/vinhos/bressia-conjuro.jpg",FALSE,TRUE
+"Bressia","Bressia Ultima Hoja",482,135000,"https://blending-wines-turista.vercel.app/img/vinhos/bressia-ultima-hoja.jpg",FALSE,TRUE
+"Bressia","Royal Brut Nature",134,37500,"https://blending-wines-turista.vercel.app/img/vinhos/royal-brut-nature.jpg",FALSE,FALSE
+"Catena Zapata","Nicasia Malbec",33,9375,"https://blending-wines-turista.vercel.app/img/vinhos/nicasia-malbec.jpg",FALSE,TRUE
+"Catena Zapata","Nicasia Cabernet Franc",33,9375,"https://blending-wines-turista.vercel.app/img/vinhos/nicasia-cabernet-franc.jpg",FALSE,TRUE
+"Catena Zapata","Nicasia Blanc de Blancs",33,9375,"https://blending-wines-turista.vercel.app/img/vinhos/nicasia-blanc-de-blancs.jpg",FALSE,TRUE
+"Catena Zapata","Nicasia Grand Blend",42,11875,"https://blending-wines-turista.vercel.app/img/vinhos/nicasia-grand-blend.jpg",FALSE,TRUE
+"Catena Zapata","Saint Felicien Cabernet Franc",42,11750,"https://blending-wines-turista.vercel.app/img/vinhos/saint-felicien-cabernet-franc.jpg",FALSE,TRUE
+"Catena Zapata","Saint Felicien Cabernet Sauvignon",42,11750,"https://blending-wines-turista.vercel.app/img/vinhos/saint-felicien-cabernet-sauvignon.jpg",FALSE,TRUE
+"Catena Zapata","Saint Felicien Chardonnay",42,11750,"https://blending-wines-turista.vercel.app/img/vinhos/saint-felicien-chardonnay.jpg",FALSE,FALSE
+"Catena Zapata","Saint Felicien Cabernet-Merlot",42,11750,"https://blending-wines-turista.vercel.app/img/vinhos/saint-felicien-cabernet-merlot.jpg",FALSE,TRUE
+"Catena Zapata","Saint Felicien Malbec",38,10625,"https://blending-wines-turista.vercel.app/img/vinhos/saint-felicien-malbec.jpg",FALSE,TRUE
+"Catena Zapata","Saint Felicien Rose x 4",121,33750,"https://blending-wines-turista.vercel.app/img/vinhos/saint-felicien-rose-x-4.jpg",FALSE,FALSE
+"Catena Zapata","Saint Felicien Brut Nature",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/saint-felicien-brut-nature.jpg",FALSE,FALSE
+"Catena Zapata","DV Garnacha Apelacion – Lunlunta x 4",96,26875,"https://blending-wines-turista.vercel.app/img/vinhos/dv-garnacha-apelacion-lunlunta-x-4.jpg",FALSE,FALSE
+"Catena Zapata","DV Chardonnay-Chardonnay",65,18125,"https://blending-wines-turista.vercel.app/img/vinhos/dv-chardonnay-chardonnay.jpg",FALSE,FALSE
+"Catena Zapata","DV Blanco Historico Semillon – chenin Agrelo",83,23125,"https://blending-wines-turista.vercel.app/img/vinhos/dv-blanco-historico-semillon-chenin-agrelo.jpg",FALSE,FALSE
+"Catena Zapata","DV Cabernet-Malbec",54,15000,"https://blending-wines-turista.vercel.app/img/vinhos/dv-cabernet-malbec.jpg",FALSE,TRUE
+"Catena Zapata","DV Malbec-Malbec",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/dv-malbec-malbec.jpg",FALSE,TRUE
+"Catena Zapata","DV Cabernet-Cabernet",80,22500,"https://blending-wines-turista.vercel.app/img/vinhos/dv-cabernet-cabernet.jpg",FALSE,FALSE
+"Catena Zapata","DV Malbec-Malbec 1,5LT",138,38750,"https://blending-wines-turista.vercel.app/img/vinhos/dv-malbec-malbec-1-5lt.jpg",FALSE,TRUE
+"Catena Zapata","DV Pinot-Pinot",65,18125,"https://blending-wines-turista.vercel.app/img/vinhos/dv-pinot-pinot.jpg",FALSE,TRUE
+"Catena Zapata","Angelica Chardonnay",107,30000,"https://blending-wines-turista.vercel.app/img/vinhos/angelica-chardonnay.jpg",FALSE,TRUE
+"Catena Zapata","Angelica Merlot",107,30000,"https://blending-wines-turista.vercel.app/img/vinhos/angelica-merlot.jpg",FALSE,TRUE
+"Catena Zapata","Angelica Cabernet Sauvignon",107,30000,"https://blending-wines-turista.vercel.app/img/vinhos/angelica-cabernet-sauvignon.jpg",FALSE,TRUE
+"Catena Zapata","Angelica Cabernet Franc",107,30000,"https://blending-wines-turista.vercel.app/img/vinhos/angelica-cabernet-franc.jpg",FALSE,FALSE
+"Catena Zapata","Angelica Malbec",109,30625,"https://blending-wines-turista.vercel.app/img/vinhos/angelica-malbec.jpg",FALSE,TRUE
+"Catena Zapata","DV Catena L`Esploratore Malbec Cafayate *4",80,22500,"https://blending-wines-turista.vercel.app/img/vinhos/dv-catena-l-esploratore-malbec-cafayate-4.jpg",FALSE,FALSE
+"Catena Zapata","DV Catena L`Esploratore Malbec Angulos *4",80,22500,"https://blending-wines-turista.vercel.app/img/vinhos/dv-catena-l-esploratore-malbec-angulos-4.jpg",FALSE,FALSE
+"Catena Zapata","DV Designated Vineyard Malbec Adrianna *4",134,37500,"https://blending-wines-turista.vercel.app/img/vinhos/dv-designated-vineyard-malbec-adrianna-4.jpg",FALSE,FALSE
+"Catena Zapata","DV Designated Vineyard Malbec Nicasia *4",125,35000,"https://blending-wines-turista.vercel.app/img/vinhos/dv-designated-vineyard-malbec-nicasia-4.jpg",FALSE,FALSE
+"Catena Zapata","DV Designated Vineyard Cab. Sauv. Nicasia *4",125,35000,"https://blending-wines-turista.vercel.app/img/vinhos/dv-designated-vineyard-cab-sauv-nicasia-4.jpg",FALSE,FALSE
+"Catena Zapata","DV La Pirámide Cabernet Sauvignon *4",125,35000,"https://blending-wines-turista.vercel.app/img/vinhos/dv-la-piramide-cabernet-sauvignon-4.jpg",FALSE,FALSE
+"Catena Zapata","DV Domingo Cabernet Sauvignon *4",125,35000,"https://blending-wines-turista.vercel.app/img/vinhos/dv-domingo-cabernet-sauvignon-4.jpg",FALSE,FALSE
+"Catena Zapata","Malbec Argentino * 6",313,87500,"https://blending-wines-turista.vercel.app/img/vinhos/malbec-argentino-4-oferta.jpg",FALSE,TRUE
+"Catena Zapata","Nicolas Catena 2021 * 6",313,87500,"https://blending-wines-turista.vercel.app/img/vinhos/nicolas-catena-2021-6.jpg",FALSE,TRUE
+"Catena Zapata","Nicolas Catena 2020 * 6",317,88750,"https://blending-wines-turista.vercel.app/img/vinhos/nicolas-catena-2020-6.jpg",FALSE,FALSE
+"Catena Zapata","Nicola Catena Bonarda * 4",241,67500,"https://blending-wines-turista.vercel.app/img/vinhos/nicola-catena-bonarda-4.jpg",FALSE,TRUE
+"Catena Zapata","Birth of Cabernet sauvignon 2021",286,80000,"https://blending-wines-turista.vercel.app/img/vinhos/birth-of-cabernet-sauvignon-2021.jpg",FALSE,TRUE
+"Catena Zapata","Angelica Malbec 2021",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/angelica-malbec-2021.jpg",FALSE,FALSE
+"Catena Zapata","Nicolas Catena 2018",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/nicolas-catena-2018.jpg",FALSE,FALSE
+"Catena Zapata","Nicolas Catena 2019",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/nicolas-catena-2019.jpg",FALSE,FALSE
+"El Enemigo","El Enemigo Cabernet Franc (oferta)",79,22250,"https://blending-wines-turista.vercel.app/img/vinhos/el-enemigo-cabernet-franc-oferta.jpg",FALSE,TRUE
+"El Enemigo","El Enemigo Malbec (oferta)",79,22250,"https://blending-wines-turista.vercel.app/img/vinhos/el-enemigo-malbec-oferta.jpg",FALSE,TRUE
+"El Enemigo","El Enemigo Chardonnay",79,22250,"https://blending-wines-turista.vercel.app/img/vinhos/el-enemigo-chardonnay.jpg",FALSE,TRUE
+"El Enemigo","El Enemigo Bonarda",79,22250,"https://blending-wines-turista.vercel.app/img/vinhos/el-enemigo-bonarda.jpg",FALSE,TRUE
+"El Enemigo","Gran Enemigo Cepillo",205,57500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-enemigo-cepillo.jpg",FALSE,TRUE
+"El Enemigo","Gran Enemigo Agrelo",205,57500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-enemigo-agrelo.jpg",FALSE,TRUE
+"El Enemigo","Gran Enemigo Gualtallary",254,71250,"https://blending-wines-turista.vercel.app/img/vinhos/gran-enemigo-gualtallary.jpg",FALSE,TRUE
+"El Enemigo","Gran Enemigo Chacayes",205,57500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-enemigo-chacayes.jpg",FALSE,TRUE
+"El Enemigo","Gran Enemigo Corte",205,57500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-enemigo-corte.jpg",FALSE,TRUE
+"El Enemigo","Gran Enemigo Gualtallary 2021",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/gran-enemigo-gualtallary-2021.jpg",FALSE,FALSE
+"Colomé","Colome Torrontes",60,16875,"https://blending-wines-turista.vercel.app/img/vinhos/colome-torrontes.jpg",FALSE,TRUE
+"Colomé","Colome Lote Especial Malbec",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/colome-lote-especial-malbec.jpg",FALSE,TRUE
+"Colomé","Colome Lote Especial Bonarda",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/colome-lote-especial-bonarda.jpg",FALSE,FALSE
+"Colomé","Colome Estate Malbec (OFERTA)",60,16875,"https://blending-wines-turista.vercel.app/img/vinhos/colome-estate-malbec-oferta.jpg",FALSE,FALSE
+"Colomé","Colome Estate Malbec 1.5lt",172,48125,"https://blending-wines-turista.vercel.app/img/vinhos/colome-estate-malbec-1-5lt.jpg",FALSE,FALSE
+"Colomé","Colome Autentico",80,22500,"https://blending-wines-turista.vercel.app/img/vinhos/colome-autentico.jpg",FALSE,FALSE
+"Colomé","Colome El Camino Tannat",105,29375,"https://blending-wines-turista.vercel.app/img/vinhos/colome-el-camino-tannat.jpg",FALSE,TRUE
+"Colomé","Colome El Arenal",105,29375,"https://blending-wines-turista.vercel.app/img/vinhos/colome-el-arenal.jpg",FALSE,FALSE
+"Colomé","Colome 1831 Malbec",165,46250,"https://blending-wines-turista.vercel.app/img/vinhos/colome-1831-malbec.jpg",FALSE,FALSE
+"Colomé","Altura Maxima Malbec 2018",60,16875,"https://blending-wines-turista.vercel.app/img/vinhos/altura-maxima-malbec-2018.jpg",FALSE,FALSE
+"Cruzat","Cruzat Premier Extra Brut Rose",76,21250,"https://blending-wines-turista.vercel.app/img/vinhos/cruzat-premier-extra-brut-rose.jpg",FALSE,FALSE
+"Cruzat","Cruzat Premier Extra Brut",76,21250,"https://blending-wines-turista.vercel.app/img/vinhos/cruzat-premier-extra-brut.jpg",FALSE,FALSE
+"Cruzat","Cruzat Premier Nature",76,21250,"https://blending-wines-turista.vercel.app/img/vinhos/cruzat-premier-nature.jpg",FALSE,TRUE
+"Cruzat","Cruzat Joven Naranjo",76,21250,"https://blending-wines-turista.vercel.app/img/vinhos/cruzat-joven-naranjo.jpg",FALSE,FALSE
+"Cruzat","Cruzat Cuvee Ext Brut Rose",83,23125,"https://blending-wines-turista.vercel.app/img/vinhos/cruzat-cuvee-ext-brut-rose.jpg",FALSE,TRUE
+"Cruzat","Cruzat Cuvee Nature",83,23125,"https://blending-wines-turista.vercel.app/img/vinhos/cruzat-cuvee-nature.jpg",FALSE,TRUE
+"Cruzat","Cruzat Cuvee Extra Brut",83,23125,"https://blending-wines-turista.vercel.app/img/vinhos/cruzat-cuvee-extra-brut.jpg",FALSE,TRUE
+"Pleno","Pleno Terroirs Blend",54,15250,"https://blending-wines-turista.vercel.app/img/vinhos/pleno-terroirs-blend.jpg",FALSE,TRUE
+"Pleno","Pleno Terroirs Cabernet Franc",54,15250,"https://blending-wines-turista.vercel.app/img/vinhos/pleno-terroirs-cabernet-franc.jpg",FALSE,TRUE
+"Pleno","Pleno Terroirs Malbec",54,15250,"https://blending-wines-turista.vercel.app/img/vinhos/pleno-terroirs-malbec.jpg",FALSE,FALSE
+"Pleno","Pleno appellation Malbec San Pablo",107,30000,"https://blending-wines-turista.vercel.app/img/vinhos/pleno-appellation-malbec-san-pablo.jpg",FALSE,TRUE
+"Domaine Nico","Domaine Nico Gran Pere",145,40625,"https://blending-wines-turista.vercel.app/img/vinhos/domaine-nico-gran-pere.jpg",FALSE,FALSE
+"Domaine Nico","Domaine Nico Gran Mere",145,40625,"https://blending-wines-turista.vercel.app/img/vinhos/domaine-nico-gran-mere.jpg",FALSE,FALSE
+"Domaine Nico","Domaine Nico Brut Rose",143,40000,"https://blending-wines-turista.vercel.app/img/vinhos/domaine-nico-brut-rose.jpg",FALSE,FALSE
+"Domaine Nico","Domaine Nico Parcela Histoire D`A",254,71250,"https://blending-wines-turista.vercel.app/img/vinhos/domaine-nico-parcela-histoire-d-a.jpg",FALSE,FALSE
+"Domaine Nico","Domaine Nico La Savante 2020",254,71250,"https://blending-wines-turista.vercel.app/img/vinhos/domaine-nico-la-savante-2020.jpg",FALSE,FALSE
+"Luca","Luca Malbec (Bodega Luca Wines)",134,37500,"https://blending-wines-turista.vercel.app/img/vinhos/luca-malbec-bodega-luca-wines.jpg",FALSE,FALSE
+"Luca","Luca G Pinot Noir",114,31875,"https://blending-wines-turista.vercel.app/img/vinhos/luca-g-pinot-noir.jpg",FALSE,FALSE
+"Luca","Luca Syrah",114,31875,"https://blending-wines-turista.vercel.app/img/vinhos/luca-syrah.jpg",FALSE,FALSE
+"Luca","Luca Beso de Dante",192,53750,"https://blending-wines-turista.vercel.app/img/vinhos/luca-beso-de-dante.jpg",FALSE,TRUE
+"Luca","Nico by Luca Malbec *3",429,120000,"https://blending-wines-turista.vercel.app/img/vinhos/nico-by-luca-malbec-3.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Durigutti Malbec",41,11500,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-malbec.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Durigutti Cabernet Franc",41,11500,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-cabernet-franc.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Durigutti Bonarda",41,11500,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-bonarda.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Durigutti Reserva Malbec",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-reserva-malbec.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Durigutti Reserva Bonarda",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-reserva-bonarda.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Durigutti Reserva Cabernet Franc",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-reserva-cabernet-franc.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Durigutti HD Malbec",58,16375,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-hd-malbec.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Pie de Monte Finca Las Jarillas",75,21000,"https://blending-wines-turista.vercel.app/img/vinhos/pie-de-monte-finca-las-jarillas.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Pie de Monte Finca Ruano",75,21000,"https://blending-wines-turista.vercel.app/img/vinhos/pie-de-monte-finca-ruano.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Pie de Monte Finca Zarlenga",75,21000,"https://blending-wines-turista.vercel.app/img/vinhos/pie-de-monte-finca-zarlenga.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Carmela Reserva malbec",84,23500,"https://blending-wines-turista.vercel.app/img/vinhos/carmela-reserva-malbec.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Proyecto Las Compuertas Criolla",92,25875,"https://blending-wines-turista.vercel.app/img/vinhos/proyecto-las-compuertas-criolla.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Proyecto Las Compuertas Cordisco",92,25875,"https://blending-wines-turista.vercel.app/img/vinhos/proyecto-las-compuertas-cordisco.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Tinto de Pueblo de las Compuertas",76,21250,"https://blending-wines-turista.vercel.app/img/vinhos/tinto-de-pueblo-de-las-compuertas.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Durigutti Gran Reserva Malbec",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-gran-reserva-malbec.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Durigutti Gran Reserva Cabernet Franc",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/durigutti-gran-reserva-cabernet-franc.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Proyecto Las Compuertas Blanco de finca",145,40625,"https://blending-wines-turista.vercel.app/img/vinhos/proyecto-las-compuertas-blanco-de-finca.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Proyecto Las Compuertas Charbono (Bonarda)",113,31750,"https://blending-wines-turista.vercel.app/img/vinhos/proyecto-las-compuertas-charbono-bonarda.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Proyecto Las Compuertas Malbec 5 suelos",113,31750,"https://blending-wines-turista.vercel.app/img/vinhos/proyecto-las-compuertas-malbec-5-suelos.jpg",FALSE,FALSE
+"Durigutti · Las Compuertas","Proyecto Las Compuertas Cabernet Franc",144,40375,"https://blending-wines-turista.vercel.app/img/vinhos/proyecto-las-compuertas-cabernet-franc.jpg",FALSE,TRUE
+"Durigutti · Las Compuertas","Proyecto Las Compuertas Malbec 1914",176,49250,"https://blending-wines-turista.vercel.app/img/vinhos/proyecto-las-compuertas-malbec-1914.jpg",FALSE,FALSE
+"Escorihuela Gascón","Escorihuela G Malbec",37,10375,"https://blending-wines-turista.vercel.app/img/vinhos/escorihuela-g-malbec.jpg",FALSE,TRUE
+"Escorihuela Gascón","Escorihuela G Cabernet Sauvignon",37,10375,"https://blending-wines-turista.vercel.app/img/vinhos/escorihuela-g-cabernet-sauvignon.jpg",FALSE,FALSE
+"Escorihuela Gascón","Pequeñas producciones Malbec",112,31250,"https://blending-wines-turista.vercel.app/img/vinhos/pequenas-producciones-malbec.jpg",FALSE,FALSE
+"Escorihuela Gascón","Pequeñas Producciones Cabernet Sauvignon",112,31250,"https://blending-wines-turista.vercel.app/img/vinhos/pequenas-producciones-cabernet-sauvignon.jpg",FALSE,FALSE
+"Escorihuela Gascón","MEG (Miguel Escorihuela Gascon) - **",143,40000,"https://blending-wines-turista.vercel.app/img/vinhos/meg-miguel-escorihuela-gascon.jpg",FALSE,FALSE
+"Escorihuela Gascón","DON Malbec",231,64750,"https://blending-wines-turista.vercel.app/img/vinhos/don-malbec.jpg",FALSE,TRUE
+"Fabre Montmayou","Fabre Montmayou Malbec",25,6875,"https://blending-wines-turista.vercel.app/img/vinhos/fabre-montmayou-malbec.jpg",FALSE,TRUE
+"Fabre Montmayou","Fabre Montmayou Cabernet Franc",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/fabre-montmayou-cabernet-franc.jpg",FALSE,FALSE
+"Fabre Montmayou","Fabre Montmayou Chardonnay",25,6875,"https://blending-wines-turista.vercel.app/img/vinhos/fabre-montmayou-chardonnay.jpg",FALSE,FALSE
+"Schroeder","Saurus Estate Pinot Noir",48,13375,"https://blending-wines-turista.vercel.app/img/vinhos/saurus-estate-pinot-noir.jpg",FALSE,TRUE
+"Schroeder","Saurus Estate Pinot Rosé",48,13375,"https://blending-wines-turista.vercel.app/img/vinhos/saurus-estate-pinot-rose.jpg",FALSE,TRUE
+"Schroeder","Saurus Estate Malbec",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/saurus-estate-malbec.jpg",FALSE,TRUE
+"Schroeder","Saurus Estate Merlot",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/saurus-estate-merlot.jpg",FALSE,TRUE
+"Schroeder","Saurus Select Pinot Noir",62,17250,"https://blending-wines-turista.vercel.app/img/vinhos/saurus-select-pinot-noir.jpg",FALSE,TRUE
+"Schroeder","Saurus Select Merlot",56,15625,"https://blending-wines-turista.vercel.app/img/vinhos/saurus-select-merlot.jpg",FALSE,TRUE
+"Schroeder","H Schroeder Extra Brut",74,20625,"https://blending-wines-turista.vercel.app/img/vinhos/h-schroeder-extra-brut.jpg",FALSE,FALSE
+"Schroeder","H Schroeder Extra Brut Rosé",74,20625,"https://blending-wines-turista.vercel.app/img/vinhos/h-schroeder-extra-brut-rose.jpg",FALSE,FALSE
+"Schroeder","Saurus Select Malbec",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/saurus-select-malbec.jpg",FALSE,FALSE
+"Sombrero · Zonos","Sombrero Malbec",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/sombrero-malbec.jpg",FALSE,TRUE
+"Sombrero · Zonos","Sombrero Cabernet Sauvignon",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/sombrero-cabernet-sauvignon.jpg",FALSE,TRUE
+"Sombrero · Zonos","Sombrero Sauvignon Blanc",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/sombrero-sauvignon-blanc.jpg",FALSE,TRUE
+"Sombrero · Zonos","Sombrero Cabernet Franc",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/sombrero-cabernet-franc.jpg",FALSE,TRUE
+"Sombrero · Zonos","Gran Sombrero Malbec",63,17750,"https://blending-wines-turista.vercel.app/img/vinhos/gran-sombrero-malbec.jpg",FALSE,TRUE
+"Sombrero · Zonos","Gran Sombrero Cabernet Sauvignon",63,17750,"https://blending-wines-turista.vercel.app/img/vinhos/gran-sombrero-cabernet-sauvignon.jpg",FALSE,FALSE
+"Sombrero · Zonos","Gran Sombrero Chardonnay",63,17750,"https://blending-wines-turista.vercel.app/img/vinhos/gran-sombrero-chardonnay.jpg",FALSE,FALSE
+"Sombrero · Zonos","Gran Sombrero Cabernet Franc",63,17750,"https://blending-wines-turista.vercel.app/img/vinhos/gran-sombrero-cabernet-franc.jpg",FALSE,TRUE
+"Sombrero · Zonos","Zonos Malbec",96,26875,"https://blending-wines-turista.vercel.app/img/vinhos/zonos-malbec.jpg",FALSE,TRUE
+"La Posta","La Posta Tinto Red Blend",58,16125,"https://blending-wines-turista.vercel.app/img/vinhos/la-posta-tinto-red-blend.jpg",FALSE,TRUE
+"La Posta","La Posta Glorieta (Pinot Noir)",59,16500,"https://blending-wines-turista.vercel.app/img/vinhos/la-posta-glorieta-pinot-noir.jpg",FALSE,TRUE
+"La Posta","La Posta Pizzella",59,16500,"https://blending-wines-turista.vercel.app/img/vinhos/la-posta-pizzella.jpg",FALSE,TRUE
+"La Posta","La Posta Paulucci",59,16500,"https://blending-wines-turista.vercel.app/img/vinhos/la-posta-paulucci.jpg",FALSE,TRUE
+"Las Perdices","Las Perdices Torrontes Dulce",40,11250,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-torrontes-dulce.jpg",FALSE,FALSE
+"Las Perdices","Las Perdices Sauvignon Blanc Fume",62,17250,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-sauvignon-blanc-fume.jpg",FALSE,FALSE
+"Las Perdices","Las Perdices Ala Colorada Ancellotta",81,22625,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-ala-colorada-ancellotta.jpg",FALSE,FALSE
+"Las Perdices","Las Perdices Exploracion Albariño",81,22625,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-exploracion-albarino.jpg",FALSE,FALSE
+"Las Perdices","Las Perdices Ala Colorada Cab Franc",81,22625,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-ala-colorada-cab-franc.jpg",FALSE,FALSE
+"Las Perdices","Las Perdices Ala Colorada Petit Verdot",81,22625,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-ala-colorada-petit-verdot.jpg",FALSE,FALSE
+"Las Perdices","Las Perdices Exploracion Riesling",81,22625,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-exploracion-riesling.jpg",FALSE,TRUE
+"Las Perdices","Las Perdices Exploracion Sauvignon Blanc Casablanca (Chile)",89,25000,"https://blending-wines-turista.vercel.app/img/vinhos/las-perdices-exploracion-sauvignon-blanc-casablanca-chile.jpg",FALSE,TRUE
+"Luigi Bosca","La Linda Malbec",26,7375,"https://blending-wines-turista.vercel.app/img/vinhos/la-linda-malbec.jpg",FALSE,FALSE
+"Luigi Bosca","La Linda Chardonnay",26,7375,"https://blending-wines-turista.vercel.app/img/vinhos/la-linda-chardonnay.jpg",FALSE,FALSE
+"Luigi Bosca","La Linda Red Blend",26,7375,"https://blending-wines-turista.vercel.app/img/vinhos/la-linda-red-blend.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi Bosca Malbec",51,14375,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-malbec.jpg",FALSE,TRUE
+"Luigi Bosca","Luigi Bosca Cabernet Sauvignon",51,14375,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-cabernet-sauvignon.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi Bosca Chardonnay",51,14375,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-chardonnay.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi Bosca Sauvignon Blanc",51,14375,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-sauvignon-blanc.jpg",FALSE,TRUE
+"Luigi Bosca","Luigi de Sangre Corte",65,18125,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-de-sangre-corte.jpg",FALSE,TRUE
+"Luigi Bosca","Luigi de Sangre Cabernet Franc",85,23750,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-de-sangre-cabernet-franc.jpg",FALSE,TRUE
+"Luigi Bosca","Luigi de Sangre Malbec DOC",87,24375,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-de-sangre-malbec-doc.jpg",FALSE,TRUE
+"Luigi Bosca","Luigi Bosca Los Nobles malbec doc * 4",279,78125,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-los-nobles-malbec-doc-4.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi bosca de sangre white blend",80,22500,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-de-sangre-white-blend.jpg",FALSE,TRUE
+"Luigi Bosca","Luigi Bosca Leon Cab. Sauvignon",313,87500,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-leon-cab-sauvignon.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi Bosca Filos Chardonnay *4",281,78750,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-filos-chardonnay-4.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi Bosca Apuntes Grenache * 4",118,33125,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-apuntes-grenache-4.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi Bosca Extra Brut",87,24375,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-extra-brut.jpg",FALSE,FALSE
+"Luigi Bosca","Luigi Bosca Brut Nature",87,24375,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-bosca-brut-nature.jpg",FALSE,TRUE
+"Luigi Bosca","Luigi de Sangre Malbec DOC 1.5lt",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/luigi-de-sangre-malbec-doc-1-5lt.jpg",FALSE,FALSE
+"Luigi Bosca","La Linda Cabernet Sauvignon",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/la-linda-cabernet-sauvignon.jpg",FALSE,FALSE
+"Luigi Bosca","La Linda Extra Brut",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/la-linda-extra-brut.jpg",FALSE,FALSE
+"Luigi Bosca","La Linda Rosé de Malbec",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/la-linda-rose-de-malbec.jpg",FALSE,FALSE
+"Luigi Bosca","La Linda Torrontés",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/la-linda-torrontes.jpg",FALSE,FALSE
+"Mariflor","Mariflor Sauvignon Blanc",125,35000,"https://blending-wines-turista.vercel.app/img/vinhos/mariflor-sauvignon-blanc.jpg",FALSE,TRUE
+"Mariflor","Mariflor Malbec (OFERTA)",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/mariflor-malbec-oferta.jpg",FALSE,TRUE
+"Mariflor","Mariflor Pinot Noir",87,24375,"https://blending-wines-turista.vercel.app/img/vinhos/mariflor-pinot-noir.jpg",FALSE,FALSE
+"Mariflor","Mariflor Blend",103,28750,"https://blending-wines-turista.vercel.app/img/vinhos/mariflor-blend.jpg",FALSE,FALSE
+"Mariflor","Mariflor Cabernet Sauvignon",112,31250,"https://blending-wines-turista.vercel.app/img/vinhos/mariflor-cabernet-sauvignon.jpg",FALSE,TRUE
+"Mariflor","Mariflor Cabernet Franc (OFERTA)",121,33750,"https://blending-wines-turista.vercel.app/img/vinhos/mariflor-cabernet-franc-oferta.jpg",FALSE,TRUE
+"Petite Fleur","Petite Fleur Chardonnay",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/petite-fleur-chardonnay.jpg",FALSE,FALSE
+"Petite Fleur","Petite Fleur Malbec",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/petite-fleur-malbec.jpg",FALSE,FALSE
+"Petite Fleur","Petite Fleur Cabernet Franc",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/petite-fleur-cabernet-franc.jpg",FALSE,TRUE
+"Petite Fleur","Petite Fleur Blend",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/petite-fleur-blend.jpg",FALSE,TRUE
+"Mosquita Muerta","Perro Callejero Malbec",30,8375,"https://blending-wines-turista.vercel.app/img/vinhos/perro-callejero-malbec.jpg",FALSE,FALSE
+"Mosquita Muerta","Sapo de Otro Pozo Blend de Tintas * 3",54,15125,"https://blending-wines-turista.vercel.app/img/vinhos/sapo-de-otro-pozo-blend-de-tintas-3.jpg",FALSE,TRUE
+"Mosquita Muerta","Mosquita Muerta Blend de Tintas * 3",67,18750,"https://blending-wines-turista.vercel.app/img/vinhos/mosquita-muerta-blend-de-tintas-3.jpg",FALSE,TRUE
+"Mosquita Muerta","Mosquita Muerta Espumante Nature *3",66,18500,"https://blending-wines-turista.vercel.app/img/vinhos/mosquita-muerta-espumante-nature-3.jpg",FALSE,TRUE
+"Pulenta Estate","La Flor Malbec",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/la-flor-malbec.jpg",FALSE,TRUE
+"Pulenta Estate","La Flor Blend",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/la-flor-blend.jpg",FALSE,TRUE
+"Pulenta Estate","La Flor Malbec Rosé",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/la-flor-malbec-rose.jpg",FALSE,FALSE
+"Pulenta Estate","La Flor Sauvignon Blanc",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/la-flor-sauvignon-blanc.jpg",FALSE,TRUE
+"Pulenta Estate","Pulenta Estate Red Blend",105,29375,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-red-blend.jpg",FALSE,FALSE
+"Pulenta Estate","Pulenta Estate Pinot Noir tinto",105,29375,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-pinot-noir-tinto.jpg",FALSE,TRUE
+"Pulenta Estate","Pulenta Estate Sauvignon Blanc",69,19375,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-sauvignon-blanc.jpg",FALSE,FALSE
+"Pulenta Estate","Pulenta Estate Chardonnay",69,19375,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-chardonnay.jpg",FALSE,TRUE
+"Pulenta Estate","Pulenta Estate Cabernet Franc",105,29375,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-cabernet-franc.jpg",FALSE,TRUE
+"Pulenta Estate","Pulenta Estate Malbec",105,29375,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-malbec.jpg",FALSE,FALSE
+"Pulenta Estate","Pulenta Estate Malbec Orgánico",105,29375,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-malbec-organico.jpg",FALSE,TRUE
+"Pulenta Estate","Pulenta Estate Rose SIl Vous Plait (OFERTA)",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-rose-sil-vous-plait-oferta.jpg",FALSE,TRUE
+"Pulenta Estate","Pulenta gran corte",353,98750,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-gran-corte.jpg",FALSE,FALSE
+"Pulenta Estate","Pulenta gran malbec",295,82500,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-gran-malbec.jpg",FALSE,FALSE
+"Pulenta Estate","Pulenta Merlot",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-merlot.jpg",FALSE,FALSE
+"Pulenta Estate","Pulenta Estate Cabernet Sauvignon",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-cabernet-sauvignon.jpg",FALSE,FALSE
+"Pulenta Estate","Pulenta Estate Pinot Noir Gris Blanc",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/pulenta-estate-pinot-noir-gris-blanc.jpg",FALSE,FALSE
+"Salentein","Salentein Reserva Malbec",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-malbec.jpg",FALSE,TRUE
+"Salentein","Salentein Reserva Cabernet Sauv",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-cabernet-sauv.jpg",FALSE,TRUE
+"Salentein","Salentein Reserva Merlot",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-merlot.jpg",FALSE,TRUE
+"Salentein","Salentein Reserva Sauvignon Blanc",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-sauvignon-blanc.jpg",FALSE,TRUE
+"Salentein","Salentein Reserva Chardonnay",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-chardonnay.jpg",FALSE,FALSE
+"Salentein","Salentein Reserva Rosé",49,13750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-rose.jpg",FALSE,TRUE
+"Salentein","Salentein Reserva Cabernet Franc",52,14688,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-cabernet-franc.jpg",FALSE,TRUE
+"Salentein","Salentein Reserva Pinot Noir",52,14688,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-reserva-pinot-noir.jpg",FALSE,FALSE
+"Salentein","Corte de Tintas",54,15000,"https://blending-wines-turista.vercel.app/img/vinhos/corte-de-tintas.jpg",FALSE,FALSE
+"Salentein","Salentein Barrel Malbec - Petite Verdot",36,10000,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-barrel-malbec-petite-verdot.jpg",FALSE,TRUE
+"Salentein","Numina Chardonnay",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/numina-chardonnay.jpg",FALSE,TRUE
+"Salentein","Numina Malbec",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/numina-malbec.jpg",FALSE,FALSE
+"Salentein","Numina Pinot Noir",68,19125,"https://blending-wines-turista.vercel.app/img/vinhos/numina-pinot-noir.jpg",FALSE,TRUE
+"Salentein","Numina Cabernet Franc",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/numina-cabernet-franc.jpg",FALSE,TRUE
+"Salentein","Numina Gran Corte",78,21875,"https://blending-wines-turista.vercel.app/img/vinhos/numina-gran-corte.jpg",FALSE,TRUE
+"Salentein","Numina Petite Verdot",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/numina-petite-verdot.jpg",FALSE,TRUE
+"Salentein","Numina Gran Corte 1,5lt",163,45625,"https://blending-wines-turista.vercel.app/img/vinhos/numina-gran-corte-1-5lt.jpg",FALSE,FALSE
+"Salentein","Primus Malbec",243,68125,"https://blending-wines-turista.vercel.app/img/vinhos/primus-malbec.jpg",FALSE,FALSE
+"Salentein","Salentein Extra Brut",58,16250,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-extra-brut.jpg",FALSE,TRUE
+"Salentein","Salentein Brut Nature",60,16750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-brut-nature.jpg",FALSE,FALSE
+"Salentein","Salentein Brut Rosé",60,16750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-brut-rose.jpg",FALSE,TRUE
+"Salentein","Salentein cuvee Doux dulce",60,16750,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-cuvee-doux-dulce.jpg",FALSE,TRUE
+"Salentein","Alyda Brut Nature",88,24625,"https://blending-wines-turista.vercel.app/img/vinhos/alyda-brut-nature.jpg",FALSE,FALSE
+"Salentein","Alyda Rose",94,26250,"https://blending-wines-turista.vercel.app/img/vinhos/alyda-rose.jpg",FALSE,FALSE
+"Salentein","Puramun Pinot Noir",54,15000,"https://blending-wines-turista.vercel.app/img/vinhos/puramun-pinot-noir.jpg",FALSE,FALSE
+"Salentein","Puramun Cabernet Franc",54,15000,"https://blending-wines-turista.vercel.app/img/vinhos/puramun-cabernet-franc.jpg",FALSE,FALSE
+"Salentein","Numina Cabernet Sauvignon",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/numina-cabernet-sauvignon.jpg",FALSE,FALSE
+"Salentein","Salentein Blanc de Blancs",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/salentein-blanc-de-blancs.jpg",FALSE,FALSE
+"Salentein","Salentein Estuche x2",0,0,"",FALSE,FALSE
+"Salentein","Puramun Chardonnay",51,14375,"https://blending-wines-turista.vercel.app/img/vinhos/puramun-chardonnay.jpg",FALSE,FALSE
+"Salentein","Puramun Malbec",51,14375,"https://blending-wines-turista.vercel.app/img/vinhos/puramun-malbec.jpg",FALSE,FALSE
+"Gran Niña","Gran Niña Petite Verdot",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-nina-petite-verdot.jpg",FALSE,TRUE
+"Gran Niña","Gran Niña Bonarda",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-nina-bonarda.jpg",FALSE,TRUE
+"Gran Niña","Gran Nina Cabernet Franc",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-nina-cabernet-franc.jpg",FALSE,TRUE
+"Gran Niña","Gran Nina Merlot",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-nina-merlot.jpg",FALSE,TRUE
+"Gran Niña","Gran Nina Malbec",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/gran-nina-malbec.jpg",FALSE,TRUE
+"Gran Niña","Gran Niña 11 Barricas Merlot",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/gran-nina-11-barricas-merlot.jpg",FALSE,FALSE
+"Susana Balbo","Susana Balbo Signature Malbec",107,30000,"https://blending-wines-turista.vercel.app/img/vinhos/susana-balbo-signature-malbec.jpg",FALSE,FALSE
+"Susana Balbo","Susana Balbo Signature Rose",158,44375,"https://blending-wines-turista.vercel.app/img/vinhos/susana-balbo-signature-rose.jpg",FALSE,TRUE
+"Susana Balbo","Susana Balbo Signature White Blend",158,44375,"https://blending-wines-turista.vercel.app/img/vinhos/susana-balbo-signature-white-blend.jpg",FALSE,TRUE
+"Susana Balbo","Susana Balbo Signature Brioso",183,51250,"https://blending-wines-turista.vercel.app/img/vinhos/susana-balbo-signature-brioso.jpg",FALSE,TRUE
+"Susana Balbo","Osadia de Crear Espumante Blanco",67,18750,"https://blending-wines-turista.vercel.app/img/vinhos/osadia-de-crear-espumante-blanco.jpg",FALSE,TRUE
+"Susana Balbo","Susana Balbo Signature Cabernet Sauvignon",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/susana-balbo-signature-cabernet-sauvignon.jpg",FALSE,FALSE
+"Rosell Boher","Casa Boher Extra Brut",76,21375,"https://blending-wines-turista.vercel.app/img/vinhos/casa-boher-extra-brut.jpg",FALSE,TRUE
+"Rosell Boher","Rosell Boher Brut",114,31875,"https://blending-wines-turista.vercel.app/img/vinhos/rosell-boher-brut.jpg",FALSE,FALSE
+"Rosell Boher","Rosell Boher Rose",150,42000,"https://blending-wines-turista.vercel.app/img/vinhos/rosell-boher-rose.jpg",FALSE,FALSE
+"Rosell Boher","Rosell Boher Grand Cuvee",207,58000,"https://blending-wines-turista.vercel.app/img/vinhos/rosell-boher-grand-cuvee.jpg",FALSE,FALSE
+"Rutini","Encuentro Malbec",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/encuentro-malbec.jpg",FALSE,FALSE
+"Rutini","Colección Rutini Sauvignon Blanc",66,18375,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-sauvignon-blanc.jpg",FALSE,TRUE
+"Rutini","Colección Rutini Cabernet Sauvignon/Malbec",60,16875,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-cabernet-sauvignon-malbec.jpg",FALSE,TRUE
+"Rutini","Colección Rutini Cabernet franc/Malbec",60,16875,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-cabernet-franc-malbec.jpg",FALSE,TRUE
+"Rutini","Colección Rutini Cabernet Sauvignon/Merlot",60,16875,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-cabernet-sauvignon-merlot.jpg",FALSE,TRUE
+"Rutini","Dominio Malbec-Cabernet Franc",85,23750,"https://blending-wines-turista.vercel.app/img/vinhos/dominio-malbec-cabernet-franc.jpg",FALSE,TRUE
+"Rutini","Colección Rutini Chardonnay",89,25000,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-chardonnay.jpg",FALSE,TRUE
+"Rutini","Colección Rutini Merlot",71,20000,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-merlot.jpg",FALSE,TRUE
+"Rutini","Colección Rutini Cabernet Sauvignon",94,26250,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-cabernet-sauvignon.jpg",FALSE,TRUE
+"Rutini","Colección Rutini Gewürztraminer",192,53750,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-gewurztraminer.jpg",FALSE,FALSE
+"Rutini","Colección Rutini Malbec",113,31625,"https://blending-wines-turista.vercel.app/img/vinhos/coleccion-rutini-malbec.jpg",FALSE,TRUE
+"Rutini","Antologia XXXVIII (38) *4",232,65000,"https://blending-wines-turista.vercel.app/img/vinhos/antologia-xxxviii-38-4.jpg",FALSE,FALSE
+"Rutini","Antologia LVI (56) * 4",290,81250,"https://blending-wines-turista.vercel.app/img/vinhos/antologia-lvi-56-4.jpg",FALSE,FALSE
+"Rutini","Apartado Gran Malbec * 4",424,118750,"https://blending-wines-turista.vercel.app/img/vinhos/apartado-gran-malbec-4.jpg",FALSE,FALSE
+"Rutini","Rutini Espumoso Brut Nature * 4",192,53750,"https://blending-wines-turista.vercel.app/img/vinhos/rutini-espumoso-brut-nature-4.jpg",FALSE,FALSE
+"Rutini","Rutini Espumoso Extra Brut * 4",121,33750,"https://blending-wines-turista.vercel.app/img/vinhos/rutini-espumoso-extra-brut-4.jpg",FALSE,FALSE
+"Rutini","Rutini Cabernet Franc",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/rutini-cabernet-franc.jpg",FALSE,FALSE
+"Rutini","Felipe Rutini",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/felipe-rutini.jpg",FALSE,FALSE
+"Rutini","Antologia XLIX (49)",0,0,"",FALSE,FALSE
+"Rutini","Rutini Estuche Premium x3",0,0,"",FALSE,FALSE
+"Rutini","Rutini Estuche Clásico x3",0,0,"",FALSE,FALSE
+"Rutini","Rutini Estuche x1 Cab-Mal 1.5lt",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/rutini-estuche-x1-cab-mal-1-5lt.jpg",FALSE,FALSE
+"Tapiz","Tapiz Clasico Malbec",33,9125,"https://blending-wines-turista.vercel.app/img/vinhos/tapiz-clasico-malbec.jpg",FALSE,FALSE
+"Tapiz","Tapiz Clasico Sauvignon Blanc",33,9125,"https://blending-wines-turista.vercel.app/img/vinhos/tapiz-clasico-sauvignon-blanc.jpg",FALSE,FALSE
+"Tapiz","Selección de Barricas Estate Blend",125,35000,"https://blending-wines-turista.vercel.app/img/vinhos/seleccion-de-barricas-estate-blend.jpg",FALSE,FALSE
+"Tapiz","Black Tears Malbec",288,80750,"https://blending-wines-turista.vercel.app/img/vinhos/black-tears-malbec.jpg",FALSE,FALSE
+"Tapiz","Las Notas de Jean Claude",328,91750,"https://blending-wines-turista.vercel.app/img/vinhos/las-notas-de-jean-claude.jpg",FALSE,FALSE
+"Zaha · Teho · Los Cardones","Zaha Malbec",98,27500,"https://blending-wines-turista.vercel.app/img/vinhos/zaha-malbec.jpg",FALSE,FALSE
+"Zaha · Teho · Los Cardones","Zaha Cabernet Franc",98,27500,"https://blending-wines-turista.vercel.app/img/vinhos/zaha-cabernet-franc.jpg",FALSE,FALSE
+"Zaha · Teho · Los Cardones","Teho Malbec",129,36250,"https://blending-wines-turista.vercel.app/img/vinhos/teho-malbec.jpg",FALSE,FALSE
+"Zaha · Teho · Los Cardones","Teho Semillon",103,28750,"https://blending-wines-turista.vercel.app/img/vinhos/teho-semillon.jpg",FALSE,FALSE
+"Zaha · Teho · Los Cardones","Estancia Los Cardones Tigerstone Garnacha",80,22500,"https://blending-wines-turista.vercel.app/img/vinhos/estancia-los-cardones-tigerstone-garnacha.jpg",FALSE,FALSE
+"Trumpeter","Trumpeter Cabernet Sauvignon",34,9500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-cabernet-sauvignon.jpg",FALSE,FALSE
+"Trumpeter","Trumpeter Merlot",34,9500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-merlot.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter cabernet franc",34,9500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-cabernet-franc.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Chardonnay",34,9500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-chardonnay.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Sauvignon Blanc",34,9500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-sauvignon-blanc.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Malbec",34,9500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-malbec.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Syrah",34,9500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-syrah.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Low Malbec",45,12500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-low-malbec.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Reserva Malbec",45,12500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-reserva-malbec.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Reserva Rosé",45,12500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-reserva-rose.jpg",FALSE,TRUE
+"Trumpeter","Trumpeter Reserva Cabernet Sauvignon",45,12500,"https://blending-wines-turista.vercel.app/img/vinhos/trumpeter-reserva-cabernet-sauvignon.jpg",FALSE,TRUE
+"Yacochuya","San Pedro de Yacochuya Mal-cab",103,28750,"https://blending-wines-turista.vercel.app/img/vinhos/san-pedro-de-yacochuya-mal-cab.jpg",FALSE,FALSE
+"Yacochuya","San Pedro de Yacochuya 2023 Torrontes",54,15000,"https://blending-wines-turista.vercel.app/img/vinhos/san-pedro-de-yacochuya-2023-torrontes.jpg",FALSE,FALSE
+"Yacochuya","San Pedro de Yacochuya 2023 Cabernet Franc",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/san-pedro-de-yacochuya-2023-cabernet-franc.jpg",FALSE,FALSE
+"Yacochuya","San Pedro de Yacochuya 2023 Tannat",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/san-pedro-de-yacochuya-2023-tannat.jpg",FALSE,FALSE
+"Yacochuya","Yacochuya Malbec",278,77813,"https://blending-wines-turista.vercel.app/img/vinhos/yacochuya-malbec.jpg",FALSE,TRUE
+"Viña Cobos","Felino Malbec",103,28750,"https://blending-wines-turista.vercel.app/img/vinhos/felino-malbec.jpg",FALSE,TRUE
+"Viña Cobos","Cocodrilo Corte",165,46250,"https://blending-wines-turista.vercel.app/img/vinhos/cocodrilo-corte.jpg",FALSE,FALSE
+"Viña Cobos","Bramare Cabernet Sauv. Lujan de Cuyo",223,62500,"https://blending-wines-turista.vercel.app/img/vinhos/bramare-cabernet-sauv-lujan-de-cuyo.jpg",FALSE,TRUE
+"Viña Cobos","Bramare Malbec Lujan de Cuyo",223,62500,"https://blending-wines-turista.vercel.app/img/vinhos/bramare-malbec-lujan-de-cuyo.jpg",FALSE,FALSE
+"Viña Cobos","Bramare Malbec Valle de Uco",223,62500,"https://blending-wines-turista.vercel.app/img/vinhos/bramare-malbec-valle-de-uco.jpg",FALSE,FALSE
+"Viña Cobos","Vinculum Malbec",321,90000,"https://blending-wines-turista.vercel.app/img/vinhos/vinculum-malbec.jpg",FALSE,TRUE
+"Viña Cobos","Vinculum Chardonnay",250,70000,"https://blending-wines-turista.vercel.app/img/vinhos/vinculum-chardonnay.jpg",FALSE,TRUE
+"Viña Cobos","Felino Cabernet Sauvignon",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/felino-cabernet-sauvignon.jpg",FALSE,FALSE
+"Viña Cobos","El Vinculum",321,90000,"https://blending-wines-turista.vercel.app/img/vinhos/el-vinculum.jpg",FALSE,FALSE
+"Patagonia y más","45 Rugientes Pinot Noir",196,55000,"https://blending-wines-turista.vercel.app/img/vinhos/45-rugientes-pinot-noir.jpg",FALSE,TRUE
+"Patagonia y más","45 Rugientes Rose",196,55000,"https://blending-wines-turista.vercel.app/img/vinhos/45-rugientes-rose.jpg",FALSE,FALSE
+"Patagonia y más","Lagunar Gewurztraminer (caja de 3)",286,80000,"https://blending-wines-turista.vercel.app/img/vinhos/lagunar-gewurztraminer-caja-de-3.jpg",FALSE,TRUE
+"Patagonia y más","Otronia Pinot Noir (caja de 3)",460,128750,"https://blending-wines-turista.vercel.app/img/vinhos/otronia-pinot-noir-caja-de-3.jpg",FALSE,FALSE
+"Achaval Ferrer","Achaval Ferrer Malbec",85,23750,"https://blending-wines-turista.vercel.app/img/vinhos/achaval-ferrer-malbec.jpg",FALSE,FALSE
+"Achaval Ferrer","Achaval Ferrer Cabernet Franc",85,23750,"https://blending-wines-turista.vercel.app/img/vinhos/achaval-ferrer-cabernet-franc.jpg",FALSE,TRUE
+"Achaval Ferrer","Achaval Ferrer Merlot",85,23750,"https://blending-wines-turista.vercel.app/img/vinhos/achaval-ferrer-merlot.jpg",FALSE,TRUE
+"Achaval Ferrer","Achaval Ferrer Quimera Blend",179,50250,"https://blending-wines-turista.vercel.app/img/vinhos/achaval-ferrer-quimera-blend.jpg",FALSE,TRUE
+"La Linterna","La Linterna Malbec de Pedernal 13",344,96250,"https://blending-wines-turista.vercel.app/img/vinhos/la-linterna-malbec-de-pedernal-13.jpg",FALSE,TRUE
+"La Linterna","La Linterna Malbec de Gualtallary 5",344,96250,"https://blending-wines-turista.vercel.app/img/vinhos/la-linterna-malbec-de-gualtallary-5.jpg",FALSE,TRUE
+"La Linterna","La Linterna Malbec de Chañar Punco 73",344,96250,"https://blending-wines-turista.vercel.app/img/vinhos/la-linterna-malbec-de-cha.jpg",FALSE,FALSE
+"La Linterna","La Linterna Blend Pionero Gualtallary",536,150000,"https://blending-wines-turista.vercel.app/img/vinhos/la-linterna-blend-pionero-gualtallary.jpg",FALSE,TRUE
+"La Linterna","La Linterna Cabernet Sauvignon",344,96250,"https://blending-wines-turista.vercel.app/img/vinhos/la-linterna-cabernet-sauvignon.jpg",FALSE,TRUE
+"La Linterna","La Linterna Chardonnay",344,96250,"https://blending-wines-turista.vercel.app/img/vinhos/la-linterna-chardonnay.jpg",FALSE,TRUE
+"La Linterna","La Linterna Pinot Noir",344,96250,"https://blending-wines-turista.vercel.app/img/vinhos/la-linterna-pinot-noir.jpg",FALSE,TRUE
+"Cadus","Cadus Valle de Uco Malbec",107,30000,"https://blending-wines-turista.vercel.app/img/vinhos/cadus-valle-de-uco-malbec.jpg",FALSE,FALSE
+"Otros vinos","Araucana Río de los Ciervos Malbec",125,35000,"https://blending-wines-turista.vercel.app/img/vinhos/araucana-rio-de-los-ciervos-malbec.jpg",FALSE,TRUE
+"Otros vinos","Aristides Confidencial Cab. Franc 2019",54,15000,"https://blending-wines-turista.vercel.app/img/vinhos/aristides-confidencial-cab-franc-2019.jpg",FALSE,TRUE
+"Otros vinos","Clos de los Siete",69,19375,"https://blending-wines-turista.vercel.app/img/vinhos/clos-de-los-siete.jpg",FALSE,TRUE
+"Otros vinos","Judas Malbec",252,70625,"https://blending-wines-turista.vercel.app/img/vinhos/judas-malbec.jpg",FALSE,TRUE
+"Otros vinos","La Piel de Judas",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/la-piel-de-judas.jpg",FALSE,FALSE
+"Otros vinos","Malbec de Ángeles",63,17500,"https://blending-wines-turista.vercel.app/img/vinhos/malbec-de-angeles.jpg",FALSE,TRUE
+"Otros vinos","Amalaya Malbec",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/amalaya-malbec.jpg",FALSE,FALSE
+"Otros vinos","Antonieta 2021",0,0,"",FALSE,FALSE
+"Otros vinos","As Bravas",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/as-bravas.jpg",FALSE,FALSE
+"Otros vinos","Chacra 55",442,123750,"https://blending-wines-turista.vercel.app/img/vinhos/chacra-55.jpg",FALSE,FALSE
+"Otros vinos","Enzo Bianchi Gran Corte",350,98125,"https://blending-wines-turista.vercel.app/img/vinhos/enzo-bianchi-gran-corte.jpg",FALSE,FALSE
+"Otros vinos","Enzo Bianchi Gran Malbec",350,98125,"https://blending-wines-turista.vercel.app/img/vinhos/enzo-bianchi-gran-malbec.jpg",FALSE,FALSE
+"Otros vinos","Inframundo Natural Blend",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/inframundo-natural-blend.jpg",FALSE,FALSE
+"Otros vinos","Malbec Terroir Vistalba",0,0,"",FALSE,FALSE
+"Otros vinos","Siesta Cabernet Franc 2018",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/siesta-cabernet-franc-2018.jpg",FALSE,FALSE
+"Otros vinos","Sottano Reserva Familia Malbec 18m",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/sottano-reserva-familia-malbec-18m.jpg",FALSE,FALSE
+"Otros vinos","Zorro Salvaje de Uco Cabernet Sauvignon",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/zorro-salvaje-de-uco-cabernet-sauvignon.jpg",FALSE,FALSE
+"Otros vinos","Zorro Salvaje de Uco Malbec",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/zorro-salvaje-de-uco-malbec.jpg",FALSE,FALSE
+"Otros vinos","Casa de Herrero Cabernet Franc",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/casa-de-herrero-cabernet-franc.jpg",FALSE,FALSE
+"Otros vinos","Casa de Herrero Malbec",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/casa-de-herrero-malbec.jpg",FALSE,FALSE
+"Otros vinos","Colosso Rosé",60,16875,"https://blending-wines-turista.vercel.app/img/vinhos/colosso-rose.jpg",FALSE,FALSE
+"Otros vinos","Domaine Brunet",0,0,"",FALSE,FALSE
+"Otros vinos","Baron B Extra Brut",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/baron-b-extra-brut.jpg",FALSE,FALSE
+"Otros vinos","Chandon Extra Brut",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/chandon-extra-brut.jpg",FALSE,FALSE
+"Otros vinos","Veuve Clicquot",0,0,"https://blending-wines-turista.vercel.app/img/vinhos/veuve-clicquot.jpg",FALSE,FALSE

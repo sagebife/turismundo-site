@@ -1,0 +1,728 @@
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3J's Wines - Buenos Aires</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Supabase JS Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              marfim: "#FAFAF5",
+              bordo: "#722F37",
+              dourado: "#D4AF37",
+              escuro: "#2C1E16",
+              cinza: "#EAE6DB",
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              serif: ["Playfair Display", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .glass-dark {
+        background: rgba(44, 30, 22, 0.95);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+    </style>
+  </head>
+  <body class="bg-marfim text-escuro font-sans antialiased">
+    <!-- TELA 1: CAPA (Splash Screen) -->
+    <div
+      id="view-splash"
+      class="w-full min-h-screen flex flex-col items-center justify-center px-6 text-center border-b border-gray-200/50"
+    >
+      <img
+        src="logo.png"
+        alt="3J's Wines Logo"
+        class="w-64 md:w-80 mb-10 object-contain"
+      />
+      <h1
+        class="font-serif italic text-3xl md:text-5xl text-escuro mb-12 leading-tight"
+      >
+        Sua adega particular <br />em Buenos Aires.
+      </h1>
+      <button
+        onclick="abrirExplicacao()"
+        id="btn-entrar"
+        class="w-full max-w-xs bg-escuro text-marfim py-4 rounded-sm text-xs font-bold tracking-widest uppercase hover:bg-bordo transition-colors shadow-lg"
+      >
+        Carregando catálogo...
+      </button>
+    </div>
+
+    <!-- TELA 2: COMO FUNCIONA (Onboarding) -->
+    <div
+      id="view-explicacao"
+      class="hidden w-full min-h-screen flex-col items-center justify-center px-6 text-center relative"
+    >
+      <button
+        onclick="abrirSplash()"
+        class="absolute top-6 left-6 text-gray-400 hover:text-escuro font-bold text-xs uppercase tracking-widest flex items-center gap-1 transition-colors"
+      >
+        &larr; Voltar
+      </button>
+
+      <p
+        class="text-xs font-semibold text-dourado uppercase tracking-[0.2em] mb-4"
+      >
+        Serviço de Concierge
+      </p>
+      <h2 class="font-serif text-2xl md:text-4xl font-bold text-escuro mb-6">
+        Como funciona?
+      </h2>
+
+      <div
+        class="max-w-sm mx-auto mb-10 text-gray-600 text-sm md:text-base font-light space-y-4"
+      >
+        <p>
+          Trabalhamos exclusivamente com
+          <span class="font-medium text-bordo"
+            >caixas fechadas (6 garrafas)</span
+          >
+          para garantir o formato exigido pelas companhias aéreas.
+        </p>
+        <p>
+          Entregamos o seu pedido diretamente na recepção do seu hotel em Buenos
+          Aires, embalado com proteção anti-impacto (opcional), pronto para ser
+          despachado no voo.
+        </p>
+      </div>
+
+      <div class="flex flex-col w-full max-w-xs gap-4 mx-auto">
+        <button
+          onclick="abrirMenuBodegas()"
+          class="w-full bg-escuro text-marfim py-4 rounded-sm text-xs font-bold tracking-widest uppercase hover:bg-bordo transition-colors shadow-lg"
+        >
+          Seleção por Bodega
+        </button>
+        <button
+          onclick="abrirCombos()"
+          class="w-full bg-transparent border border-escuro text-escuro py-4 rounded-sm text-xs font-bold tracking-widest uppercase hover:bg-cinza transition-colors"
+        >
+          Conheça Nossos Combos
+        </button>
+      </div>
+    </div>
+
+    <!-- TELA 3: MENU DE BODEGAS -->
+    <div
+      id="view-menu-bodegas"
+      class="hidden w-full min-h-screen pb-20 relative"
+    >
+      <header
+        class="w-full py-4 md:py-6 flex justify-center items-center border-b border-gray-200/60 sticky top-0 bg-marfim/95 backdrop-blur-sm z-40"
+      >
+        <button
+          onclick="abrirExplicacao()"
+          class="absolute left-6 text-gray-500 hover:text-escuro font-bold text-xs uppercase tracking-widest flex items-center gap-1 transition-colors"
+        >
+          &larr; Voltar
+        </button>
+        <img
+          src="logo.png"
+          alt="3J's Wines Logo"
+          class="h-10 md:h-12 object-contain"
+        />
+      </header>
+
+      <div class="max-w-5xl mx-auto px-6 pt-10">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="h-px bg-gray-300 flex-1"></div>
+          <h2
+            class="text-sm font-semibold uppercase tracking-[0.2em] text-escuro"
+          >
+            Selecione a Bodega
+          </h2>
+          <div class="h-px bg-gray-300 flex-1"></div>
+        </div>
+
+        <!-- BARRA DE PESQUISA -->
+        <div class="relative mb-8 max-w-md mx-auto">
+          <div
+            class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+          >
+            <svg
+              class="h-4 w-4 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </div>
+          <input
+            type="text"
+            id="input-pesquisa"
+            oninput="filtrarGradeBodegas(this.value)"
+            placeholder="Buscar bodega..."
+            class="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-sm text-sm focus:outline-none focus:border-bordo focus:ring-1 focus:ring-bordo transition-colors text-escuro placeholder-gray-400 shadow-sm"
+          />
+        </div>
+
+        <div id="grid-bodegas" class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <!-- Preenchido via JS (Supabase) -->
+        </div>
+      </div>
+    </div>
+
+    <!-- TELA 4: LOJA -->
+    <div id="view-loja" class="hidden pb-40 relative">
+      <header
+        class="w-full py-4 md:py-6 flex justify-center items-center border-b border-gray-200/60 sticky top-0 bg-marfim/95 backdrop-blur-sm z-40"
+      >
+        <button
+          onclick="voltarDaLoja()"
+          class="absolute left-6 text-gray-500 hover:text-escuro font-bold text-xs uppercase tracking-widest flex items-center gap-1 transition-colors"
+        >
+          &larr; Voltar
+        </button>
+        <img
+          src="logo.png"
+          alt="3J's Wines Logo"
+          class="h-10 md:h-12 object-contain"
+        />
+      </header>
+
+      <section
+        class="max-w-3xl mx-auto px-6 py-6 flex flex-col md:flex-row gap-6 items-center justify-between"
+      >
+        <div class="text-center md:text-left">
+          <p
+            class="text-[10px] uppercase tracking-widest text-gray-400 font-semibold mb-1"
+          >
+            Sua Experiência
+          </p>
+          <p class="text-xs font-serif italic text-bordo">
+            Visualize os valores na moeda de sua preferência.
+          </p>
+        </div>
+        <div class="w-full md:w-auto">
+          <div class="flex p-1 bg-cinza rounded-full border border-gray-200">
+            <button
+              id="btn-brl"
+              onclick="setCurrency('BRL')"
+              class="flex-1 md:w-32 py-2 rounded-full text-xs font-semibold tracking-wider transition-all bg-escuro text-marfim shadow-sm"
+            >
+              R$ REAIS
+            </button>
+            <button
+              id="btn-ars"
+              onclick="setCurrency('ARS')"
+              class="flex-1 md:w-32 py-2 rounded-full text-xs font-semibold tracking-wider transition-all text-gray-500 hover:text-escuro"
+            >
+              AR$ PESOS
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO BODEGAS -->
+      <section id="secao-bodegas" class="hidden max-w-5xl mx-auto px-6 pt-4">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="h-px bg-gray-300 flex-1"></div>
+          <h2
+            id="titulo-bodega-ativa"
+            class="text-sm font-semibold uppercase tracking-[0.2em] text-escuro text-center"
+          >
+            Nossos Vinhos
+          </h2>
+          <div class="h-px bg-gray-300 flex-1"></div>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8"
+          id="wine-list"
+        ></div>
+      </section>
+
+      <!-- SEÇÃO COMBOS -->
+      <section id="secao-combos" class="hidden max-w-5xl mx-auto px-6 pt-4">
+        <div class="flex items-center gap-4 mb-6">
+          <div class="h-px bg-gray-300 flex-1"></div>
+          <h2
+            class="text-sm font-semibold uppercase tracking-[0.2em] text-escuro"
+          >
+            Nossos Combos
+          </h2>
+          <div class="h-px bg-gray-300 flex-1"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div
+            class="bg-white border border-gray-200/60 rounded-sm p-6 flex flex-col shadow-sm relative overflow-hidden group"
+          >
+            <div
+              class="absolute top-0 right-0 bg-dourado text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded-bl-sm"
+            >
+              Experiência Catena
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-escuro mb-2">
+              Ícones de Luján
+            </h3>
+            <p class="text-xs text-gray-500 font-light mb-4">
+              A verdadeira expressão do Malbec com rótulos prestigiados da
+              Bodega Catena Zapata.
+            </p>
+            <ul class="text-xs text-gray-600 space-y-2 mb-6 font-medium">
+              <li>• 3x DV Malbec-Malbec</li>
+              <li>• 3x DV Cabernet-Malbec</li>
+            </ul>
+            <div class="mt-auto flex justify-between items-end">
+              <div>
+                <p
+                  class="text-[10px] text-gray-400 uppercase tracking-widest mb-1"
+                >
+                  Caixa (6 un.)
+                </p>
+                <p
+                  class="font-sans font-medium text-escuro text-xl price-tag"
+                  data-brl="390.00"
+                  data-ars="105000.00"
+                >
+                  R$ 390,00
+                </p>
+              </div>
+              <button
+                onclick="updateQty('combo_catena', 6)"
+                class="bg-escuro text-marfim px-4 py-2 rounded-sm text-xs font-bold uppercase tracking-wider hover:bg-bordo transition-colors"
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- CARRINHO FLUTUANTE -->
+    <div
+      id="cart-bar"
+      class="hidden fixed bottom-0 left-0 right-0 p-5 glass-dark text-marfim transform translate-y-full transition-transform duration-500 z-50 shadow-2xl border-t border-gray-700"
+    >
+      <div class="max-w-5xl mx-auto">
+        <div
+          class="mb-4 pb-4 border-b border-gray-700/50 flex items-start gap-3"
+        >
+          <input
+            type="checkbox"
+            id="prot-voo"
+            class="mt-1 w-4 h-4 text-bordo rounded border-gray-500 focus:ring-bordo accent-dourado cursor-pointer bg-transparent"
+          />
+          <label for="prot-voo" class="cursor-pointer select-none">
+            <p class="text-sm font-medium text-marfim tracking-wide">
+              Adicionar Proteção de Voo
+            </p>
+            <p class="text-[11px] text-gray-400 mt-1 font-light">
+              Bolha individual.
+              <span class="font-semibold text-dourado"
+                >+ <span id="price-prot">R$ 12,00</span> / caixa</span
+              >
+            </p>
+          </label>
+        </div>
+
+        <div class="flex justify-between items-end">
+          <div>
+            <p
+              class="text-[10px] text-gray-400 font-semibold uppercase tracking-widest mb-1"
+            >
+              Sua Seleção
+            </p>
+            <p class="font-serif italic text-2xl text-marfim leading-none">
+              <span id="cart-count">0</span> garrafas
+            </p>
+            <p
+              id="cart-message"
+              class="text-xs mt-1 font-light text-gray-400"
+            ></p>
+          </div>
+          <button
+            id="btn-checkout"
+            onclick="enviarWhatsApp()"
+            disabled
+            class="bg-bordo text-marfim px-6 py-3 rounded-sm font-semibold text-sm tracking-wide transition-all flex items-center gap-2 opacity-50 cursor-not-allowed border border-bordo/50"
+          >
+            Finalizar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS MÁGICOS -->
+    <script>
+      // ==========================================
+      // 1. CONFIGURAÇÃO SUPABASE
+      // ==========================================
+      const SUPABASE_URL = "https://ucskyvrgekotxxkwtyps.supabase.co";
+
+      const SUPABASE_ANON_KEY =
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjc2t5dnJnZWtvdHh4a3d0eXBzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyMzIxMzIsImV4cCI6MjEwODgwODEzMn0.j-IxWvwYhtWqHT8AImZ-LjpNhj11cQfhxq-GEYvJ5YY";
+
+      const supabaseClient = supabase.createClient(
+        SUPABASE_URL,
+        SUPABASE_ANON_KEY,
+      );
+
+      let catalogoVinhos = [];
+      let currentCurrency = "BRL";
+      let cartState = {};
+      let totalGarrafas = 0;
+      let paginaAnterior = "";
+
+      // Carrega o catálogo completo do Supabase (incluindo ativos e esgotados)
+      async function carregarCatalogo() {
+        const btnEntrar = document.getElementById("btn-entrar");
+
+        try {
+          const { data, error } = await supabaseClient
+            .from("vinhos")
+            .select("*")
+            .order("bodega", { ascending: true });
+
+          if (error) throw error;
+
+          catalogoVinhos = data.map((v) => ({
+            id: v.id,
+            bodega: v.bodega,
+            nome: v.nome,
+            img: v.img_url,
+            brl: parseFloat(v.brl),
+            ars: parseFloat(v.ars),
+            altaGama: v.alta_gama,
+            ativo: v.ativo, // Guardamos o estado de stock
+          }));
+
+          btnEntrar.innerText = "Entrar";
+          btnEntrar.disabled = false;
+        } catch (error) {
+          console.error("Erro ao carregar do Supabase:", error);
+          btnEntrar.innerText = "Erro de Conexão";
+        }
+      }
+
+      window.onload = () => {
+        document.getElementById("btn-entrar").disabled = true;
+        carregarCatalogo();
+      };
+
+      // ==========================================
+      // 2. LÓGICA DE INTERFACE E NAVEGAÇÃO
+      // ==========================================
+      function esconderTudo() {
+        document.getElementById("view-splash").classList.add("hidden");
+        document.getElementById("view-splash").classList.remove("flex");
+        document.getElementById("view-explicacao").classList.add("hidden");
+        document.getElementById("view-explicacao").classList.remove("flex");
+        document.getElementById("view-menu-bodegas").classList.add("hidden");
+        document.getElementById("view-loja").classList.add("hidden");
+        document.getElementById("cart-bar").classList.add("hidden");
+      }
+
+      function abrirSplash() {
+        esconderTudo();
+        document.getElementById("view-splash").classList.remove("hidden");
+        document.getElementById("view-splash").classList.add("flex");
+      }
+
+      function abrirExplicacao() {
+        window.scrollTo(0, 0);
+        esconderTudo();
+        document.getElementById("view-explicacao").classList.remove("hidden");
+        document.getElementById("view-explicacao").classList.add("flex");
+      }
+
+      function abrirMenuBodegas() {
+        window.scrollTo(0, 0);
+        esconderTudo();
+        document.getElementById("view-menu-bodegas").classList.remove("hidden");
+        document.getElementById("input-pesquisa").value = "";
+        renderGridBodegas();
+      }
+
+      function abrirVinhosBodega(nomeBodega) {
+        window.scrollTo(0, 0);
+        esconderTudo();
+        document.getElementById("view-loja").classList.remove("hidden");
+        if (totalGarrafas > 0)
+          document.getElementById("cart-bar").classList.remove("hidden");
+
+        document.getElementById("secao-combos").classList.add("hidden");
+        document.getElementById("secao-bodegas").classList.remove("hidden");
+
+        document.getElementById("titulo-bodega-ativa").innerText = nomeBodega;
+        paginaAnterior = "menu-bodegas";
+
+        if (nomeBodega === "ALTA GAMA") {
+          document.getElementById("titulo-bodega-ativa").innerText =
+            "Vinhos de Alta Gama";
+          renderVinhos(nomeBodega, true);
+        } else {
+          renderVinhos(nomeBodega, false);
+        }
+      }
+
+      function abrirCombos() {
+        window.scrollTo(0, 0);
+        esconderTudo();
+        document.getElementById("view-loja").classList.remove("hidden");
+        if (totalGarrafas > 0)
+          document.getElementById("cart-bar").classList.remove("hidden");
+
+        document.getElementById("secao-bodegas").classList.add("hidden");
+        document.getElementById("secao-combos").classList.remove("hidden");
+
+        paginaAnterior = "explicacao";
+      }
+
+      function voltarDaLoja() {
+        if (paginaAnterior === "menu-bodegas") {
+          abrirMenuBodegas();
+        } else {
+          abrirExplicacao();
+        }
+      }
+
+      // ==========================================
+      // 3. PESQUISA E RENDERIZAÇÃO
+      // ==========================================
+      function filtrarGradeBodegas(termo) {
+        termo = termo
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .trim();
+        const botoes = document.querySelectorAll(".btn-bodega");
+
+        botoes.forEach((btn) => {
+          const nome = btn
+            .getAttribute("data-nome")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
+          if (nome.includes(termo)) {
+            btn.classList.remove("hidden");
+          } else {
+            btn.classList.add("hidden");
+          }
+        });
+      }
+
+      function renderGridBodegas() {
+        const container = document.getElementById("grid-bodegas");
+
+        const bodegas = [
+          ...new Set(
+            catalogoVinhos.filter((v) => !v.altaGama).map((v) => v.bodega),
+          ),
+        ].sort();
+
+        let html = "";
+
+        bodegas.forEach((bod) => {
+          const nomeArquivo = bod
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/\s+/g, "-");
+
+          html += `
+            <button data-nome="${bod.toLowerCase()}" onclick="abrirVinhosBodega('${bod}')" class="btn-bodega bg-white border border-gray-200 rounded-sm aspect-square flex flex-col items-center justify-center p-3 hover:border-bordo transition-colors shadow-sm relative overflow-hidden group">
+                <img src="logos/${nomeArquivo}.png" alt="${bod}" class="w-full h-full object-contain mix-blend-multiply" 
+                      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                <span style="display:none;" class="font-serif text-[11px] md:text-sm font-bold text-escuro text-center group-hover:text-bordo transition-colors leading-tight">
+                    ${bod}
+                </span>
+            </button>`;
+        });
+
+        html += `
+        <button data-nome="alta gama" onclick="abrirVinhosBodega('ALTA GAMA')" class="btn-bodega bg-escuro border border-dourado rounded-sm flex items-center justify-center py-4 hover:bg-bordo transition-colors shadow-lg relative overflow-hidden group col-span-2 md:col-span-4 mt-2">
+            <span class="font-serif text-sm font-bold text-dourado tracking-[0.2em] leading-tight">⭐ ALTA GAMA</span>
+        </button>`;
+
+        container.innerHTML = html;
+      }
+
+      function renderVinhos(nomeBodega, isAltaGama = false) {
+        const container = document.getElementById("wine-list");
+
+        const vinhos = isAltaGama
+          ? catalogoVinhos.filter((v) => v.altaGama)
+          : catalogoVinhos.filter(
+              (v) => v.bodega === nomeBodega && !v.altaGama,
+            );
+
+        let html = "";
+
+        vinhos.forEach((v) => {
+          let qty = cartState[v.id] || 0;
+          let subtituloBodega = isAltaGama
+            ? `<p class="text-[10px] font-semibold text-dourado uppercase tracking-widest">${v.bodega}</p>`
+            : "";
+
+          // Se estiver sem stock (ativo === false), exibe a etiqueta "Sin stock" e esconde os botões de quantidade
+          let controleEstoque =
+            v.ativo !== false
+              ? `
+              <div class="flex items-center gap-3 md:gap-4">
+                <button onclick="updateQty('${v.id}', -1)" class="text-gray-400 hover:text-bordo font-light text-xl transition-colors">−</button>
+                <span id="qty-${v.id}" class="text-sm md:text-base font-semibold w-4 text-center text-escuro">${qty}</span>
+                <button onclick="updateQty('${v.id}', 1)" class="text-gray-400 hover:text-bordo font-light text-xl transition-colors">+</button>
+              </div>`
+              : `
+              <span class="text-xs font-semibold text-red-700 uppercase tracking-wider">Sin stock</span>`;
+
+          html += `
+            <div class="wine-card flex gap-4 md:gap-6 py-4 border-b border-gray-200/50 group">
+              <div class="w-16 md:w-20 h-28 md:h-32 bg-transparent flex-shrink-0 flex items-center justify-center mix-blend-multiply">
+                <img src="${v.img}" alt="${v.nome}" class="h-full object-cover rounded-sm shadow-sm transition-transform group-hover:scale-105" />
+              </div>
+              <div class="flex flex-col justify-between flex-1 py-1">
+                <div>
+                  ${subtituloBodega}
+                  <h3 class="font-serif text-lg md:text-xl font-bold text-escuro leading-tight mt-1">${v.nome}</h3>
+                </div>
+                <div class="flex justify-between items-end mt-4">
+                  <p class="font-sans font-medium text-escuro text-base md:text-lg price-tag" data-brl="${v.brl.toFixed(2)}" data-ars="${v.ars.toFixed(2)}">
+                    ${formatPrice(v.brl, "BRL")}
+                  </p>
+                  ${controleEstoque}
+                </div>
+              </div>
+            </div>`;
+        });
+        container.innerHTML = html;
+        setCurrency(currentCurrency);
+      }
+
+      // ==========================================
+      // 4. PREÇOS, CARRINHO E WHATSAPP
+      // ==========================================
+      function formatPrice(value, currency) {
+        return currency === "BRL"
+          ? "R$ " + parseFloat(value).toFixed(2).replace(".", ",")
+          : "AR$ " + parseFloat(value).toFixed(2).replace(".", ",");
+      }
+
+      function setCurrency(currency) {
+        currentCurrency = currency;
+        const btnBrl = document.getElementById("btn-brl");
+        const btnArs = document.getElementById("btn-ars");
+        const activeClass =
+          "flex-1 md:w-32 py-2 rounded-full text-xs font-semibold tracking-wider transition-all bg-escuro text-marfim shadow-sm";
+        const inactiveClass =
+          "flex-1 md:w-32 py-2 rounded-full text-xs font-semibold tracking-wider transition-all text-gray-500 hover:text-escuro bg-transparent";
+
+        if (currency === "BRL") {
+          btnBrl.className = activeClass;
+          btnArs.className = inactiveClass;
+          document.getElementById("price-prot").innerText = "R$ 12,00";
+        } else {
+          btnArs.className = activeClass;
+          btnBrl.className = inactiveClass;
+          document.getElementById("price-prot").innerText = "AR$ 2.400,00";
+        }
+        document.querySelectorAll(".price-tag").forEach((tag) => {
+          const price =
+            currency === "BRL"
+              ? tag.getAttribute("data-brl")
+              : tag.getAttribute("data-ars");
+          tag.innerText = formatPrice(price, currency);
+        });
+      }
+
+      function updateQty(id, change) {
+        if (!cartState[id]) cartState[id] = 0;
+        let newQty = Math.max(0, cartState[id] + change);
+        let diff = newQty - cartState[id];
+        cartState[id] = newQty;
+        totalGarrafas += diff;
+
+        const qtyElement = document.getElementById("qty-" + id);
+        if (qtyElement) qtyElement.innerText = newQty;
+
+        updateCartBar();
+      }
+
+      function updateCartBar() {
+        const cartBar = document.getElementById("cart-bar");
+        const cartCount = document.getElementById("cart-count");
+        const cartMessage = document.getElementById("cart-message");
+        const btnCheckout = document.getElementById("btn-checkout");
+
+        cartCount.innerText = totalGarrafas;
+        if (totalGarrafas > 0) {
+          cartBar.classList.remove("hidden");
+          cartBar.classList.remove("translate-y-full");
+          let faltam = 6 - (totalGarrafas % 6);
+          if (totalGarrafas % 6 !== 0) {
+            cartMessage.innerHTML = `Faltam <span class="text-marfim font-medium">${faltam} un.</span> para a caixa.`;
+            btnCheckout.disabled = true;
+            btnCheckout.className =
+              "bg-transparent text-gray-500 px-6 py-3 rounded-sm font-semibold text-sm tracking-wide flex items-center opacity-50 cursor-not-allowed border border-gray-600";
+          } else {
+            let numCaixas = totalGarrafas / 6;
+            cartMessage.innerHTML = `<span class="text-dourado font-medium">✓ ${numCaixas} Caixa(s) pronta(s).</span>`;
+            btnCheckout.disabled = false;
+            btnCheckout.className =
+              "bg-marfim text-escuro hover:bg-dourado px-6 py-3 rounded-sm font-semibold text-sm tracking-wide transition-colors flex items-center cursor-pointer shadow-[0_0_15px_rgba(212,175,55,0.3)]";
+          }
+        } else {
+          cartBar.classList.add("translate-y-full");
+          setTimeout(() => {
+            if (totalGarrafas === 0) cartBar.classList.add("hidden");
+          }, 500);
+        }
+      }
+
+      function enviarWhatsApp() {
+        const numeroTel = "5491127980535";
+        const hasProt = document.getElementById("prot-voo").checked;
+        const numCaixas = totalGarrafas / 6;
+        const txtProtecao = hasProt
+          ? `%0A🛡️ Incluir Proteção de Voo (${numCaixas} caixa(s))`
+          : "";
+
+        let resumo = "";
+        for (let [id, qty] of Object.entries(cartState)) {
+          if (qty > 0) {
+            if (id.startsWith("combo")) {
+              resumo += `%0A- ${qty / 6}x Caixa(s) Combo Fechado`;
+            } else {
+              let vinho = catalogoVinhos.find((v) => v.id === id);
+              if (vinho) resumo += `%0A- ${qty}x ${vinho.bodega} ${vinho.nome}`;
+            }
+          }
+        }
+
+        const msg = `🍷 Olá, 3J's Wines!%0A%0AGostaria de solicitar minha seleção:%0A📦 Volume: ${totalGarrafas} garrafas (${numCaixas} caixas)%0A💵 Moeda: ${currentCurrency}${txtProtecao}%0A%0A*Meu Pedido:*${resumo}%0A%0AAguardo contato para finalizar o pagamento.`;
+        const url = `https://wa.me/${numeroTel}?text=${msg}`;
+        window.open(url, "_blank");
+      }
+    </script>
+  </body>
+</html>
